@@ -1,0 +1,2 @@
+D:\Program Files (x86)\Unity\Projects\Ninjutsu\obj\Debug\Unity.TextMeshPro.csproj.AssemblyReference.cache
+D:\Program Files (x86)\Unity\Projects\Ninjutsu\obj\Debug\Unity.TextMeshPro.csproj.CoreCompileInputs.cache

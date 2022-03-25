@@ -1,0 +1,2 @@
+D:\Program Files (x86)\Unity\Projects\Ninjutsu\obj\Debug\Unity.2D.SpriteShape.Runtime.csproj.AssemblyReference.cache
+D:\Program Files (x86)\Unity\Projects\Ninjutsu\obj\Debug\Unity.2D.SpriteShape.Runtime.csproj.CoreCompileInputs.cache
