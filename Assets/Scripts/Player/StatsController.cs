@@ -8,30 +8,12 @@ public class StatsController : MonoBehaviour
     private PlayerController playerController;
     private ShootController shootController;
 
-    public GameObject item;
-
     // Start is called before the first frame update
     void Start()
     {
         player = GameObject.FindWithTag("Player");
         playerController = GameObject.FindWithTag("Player").GetComponent<PlayerController>();
         shootController = GameObject.FindWithTag("Player").GetComponent<ShootController>();
-        //StartCoroutine(WaitingToMenu(3f));
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-
-    }
-    
-    IEnumerator Waiting(float wait)
-    {
-        yield return new WaitForSeconds(wait);
-
-        playerController.hp = 7;
-        playerController.DisplayLives();
-
     }
 
     IEnumerator ItemWaiting()
@@ -42,35 +24,83 @@ public class StatsController : MonoBehaviour
 
     }
 
-    private void pickUpItem()
+    private void pickUpItem(GameObject item)
     {
+        Destroy(item.GetComponent<BoxCollider2D>());
+        item.transform.position = new Vector2(player.transform.position.x, player.transform.position.y + 1);
         player.GetComponent<Animator>().SetBool("Item", true);
         player.GetComponent<Rigidbody2D>().constraints = RigidbodyConstraints2D.FreezePositionX | RigidbodyConstraints2D.FreezePositionY | RigidbodyConstraints2D.FreezeRotation;
         StartCoroutine(ItemWaiting());
+        Destroy(item.gameObject, 0.5f);
     }
 
     private void OnTriggerEnter2D(Collider2D other)
     {
         if ("Item" == other.gameObject.tag)
         {
-            if ("Heart" == other.gameObject.name)
+            if ("Heart(Clone)" == other.gameObject.name)
             {
                 if(playerController.hp < 10)
                 {
-                    pickUpItem();
+                    pickUpItem(other.gameObject);
                     playerController.hp = playerController.hp + 1;
                     playerController.DisplayLives();
                 }
                     
             }
 
-            if ("Honey" == other.gameObject.name)
+            if ("Honey(Clone)" == other.gameObject.name)
             {
-                Destroy(other.GetComponent<BoxCollider2D>());
-                pickUpItem();
-                other.transform.position = new Vector2(player.transform.position.x, player.transform.position.y + 1);
-                playerController.speed = playerController.speed - 0.3f;
-                Destroy(other.gameObject, 0.5f);
+                pickUpItem(other.gameObject);
+                playerController.speed = playerController.speed - 1f;
+            }
+
+            if ("Fish(Clone)" == other.gameObject.name)
+            {
+                pickUpItem(other.gameObject);
+                playerController.speed = playerController.speed + 1f;
+            }
+
+            if ("Noodle(Clone)" == other.gameObject.name)
+            {
+                pickUpItem(other.gameObject);
+                shootController.damage = shootController.damage + 1f;
+            }
+
+            if ("Octopus(Clone)" == other.gameObject.name)
+            {
+                pickUpItem(other.gameObject);
+                shootController.fireRate = shootController.fireRate - 0.1f;
+            }
+
+            if ("Yakitori(Clone)" == other.gameObject.name)
+            {
+                pickUpItem(other.gameObject);
+                shootController.range = shootController.range + 0.3f;
+            }
+
+            if ("Beaf(Clone)" == other.gameObject.name)
+            {
+                pickUpItem(other.gameObject);
+                shootController.bulletForce = shootController.bulletForce + 2f;
+            }
+
+            if ("FortuneCookie(Clone)" == other.gameObject.name)
+            {
+                int randomUpgrade = Random.Range(1, 4);
+                pickUpItem(other.gameObject);
+                if (randomUpgrade == 1)
+                {
+                    shootController.damage = shootController.damage + 1f;
+                }
+                else if (randomUpgrade == 2)
+                {
+                    shootController.fireRate = shootController.fireRate - 0.1f;
+                }
+                else if (randomUpgrade == 3)
+                {
+                    shootController.bulletForce = shootController.bulletForce + 2f;
+                }
             }
 
         }

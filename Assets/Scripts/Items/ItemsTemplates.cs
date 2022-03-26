@@ -6,9 +6,6 @@ public class ItemsTemplates : MonoBehaviour
 {
     public List<GameObject> items;
 
-    private int randomNumItems;
-    private int randomItem;
-
     // Start is called before the first frame update
     void Start()
     {
@@ -23,19 +20,17 @@ public class ItemsTemplates : MonoBehaviour
 
     public void SpawnItems(List<Vector2> roomsSpawned)
     {
-        if (roomsSpawned.Count > 25)
-        {
-            randomNumItems = 3;
-        }
-        else
-        {
-            randomNumItems = 2;
-        }
-
+        int nextItem = 5;
 
         for (int i = 1; i < roomsSpawned.Count - 1; i++)
         {
-            
+            if (i == nextItem)
+            {
+                int randomItem = Random.Range(0, items.Count);
+                Instantiate(items[randomItem], roomsSpawned[i], items[randomItem].transform.rotation);
+                items.Remove(items[randomItem]);
+                nextItem = nextItem + 5;
+            }
         }
     }
 }

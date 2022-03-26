@@ -32,12 +32,12 @@ public class EnemyTemplates : MonoBehaviour
     {
         for (int i = 1; i < roomsSpawned.Count - 1; i++)
         {
-            randomNumEnemies = Random.Range(2, 5);
+            randomNumEnemies = Random.Range(2, 6);
             for (int x = 0; x < randomNumEnemies; x++)
             {
                 randomEnemy = Random.Range(0, enemies.Count);
-                randomEnemyPositionX = Random.Range(-7, +7);
-                randomEnemyPositionY = Random.Range(-3, +3);
+                randomEnemyPositionX = Random.Range(-7, +8);
+                randomEnemyPositionY = Random.Range(-3, +4);
                 randomEnemyPosition = new Vector2(roomsSpawned[i].x + randomEnemyPositionX, roomsSpawned[i].y + randomEnemyPositionY);
                 Instantiate(enemies[randomEnemy], randomEnemyPosition, enemies[randomEnemy].transform.rotation);
                 spawnedEnemies.Add(enemies[randomEnemy]);
