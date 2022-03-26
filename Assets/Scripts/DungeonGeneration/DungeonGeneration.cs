@@ -27,7 +27,7 @@ public class DungeonGeneration : MonoBehaviour
     void Start()
     {
         templates = GameObject.FindGameObjectWithTag("Rooms").GetComponent<RoomTemplates>();
-        maxNumRooms = Random.Range(16, 26);
+        maxNumRooms = Random.Range(15, 25);
 
         initialRoom(templates, transform.position);
 

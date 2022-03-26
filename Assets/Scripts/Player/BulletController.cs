@@ -25,7 +25,7 @@ public class BulletController : MonoBehaviour
                 {
                     collision.gameObject.GetComponent<MouseController>().Damage(GameObject.Find("Player").GetComponent<ShootController>().damage);
                 }
-                if ("Frog" == collision.gameObject.name)
+                if ("Frog(Clone)" == collision.gameObject.name)
                 {
                     collision.gameObject.GetComponent<FrogController>().Damage(GameObject.Find("Player").GetComponent<ShootController>().damage);
                 }

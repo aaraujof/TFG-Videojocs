@@ -10,17 +10,16 @@ public class PlayerController : MonoBehaviour
     public Animator animator;
     public int hp = 3;
     public bool collision;
-    Vector2 distance;
+    public List<GameObject> lives;
 
+    Vector2 distance;
     Vector2 movement;
     Vector2 shoot;
 
     // Start is called before the first frame update
     void Start()
     {
-        /*
-         * 
-        */
+        DisplayLives();
     }
 
     // Update is called once per frame
@@ -75,6 +74,7 @@ public class PlayerController : MonoBehaviour
     public void Damage()
     {
         hp = hp - 1;
+        DisplayLives();
     }
 
     void OnCollisionEnter2D(Collision2D col)
@@ -104,6 +104,29 @@ public class PlayerController : MonoBehaviour
     {
         yield return new WaitForSeconds(wait);
 
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 2);
+    }
+
+    void DisplayLives()
+    {
+        for (int i = 0; i < 10; i++)
+        {
+            if (hp == 0)
+            {
+                lives[i].gameObject.SetActive(false);
+            }
+            else
+            {
+                if (i < hp)
+                {
+                    lives[i].gameObject.SetActive(true);
+                }
+                else
+                {
+                    lives[i].gameObject.SetActive(false);
+                }
+            }
+
+        }
     }
 }
