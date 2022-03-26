@@ -5,12 +5,12 @@ using UnityEngine.SceneManagement;
 
 public class PlayerController : MonoBehaviour
 {
-    public float speed;
     public Rigidbody2D rb;
     public Animator animator;
-    public int hp = 3;
     public bool collision;
     public List<GameObject> lives;
+    public float speed;
+    public int hp;
 
     Vector2 distance;
     Vector2 movement;
@@ -107,7 +107,7 @@ public class PlayerController : MonoBehaviour
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 2);
     }
 
-    void DisplayLives()
+    public void DisplayLives()
     {
         for (int i = 0; i < 10; i++)
         {

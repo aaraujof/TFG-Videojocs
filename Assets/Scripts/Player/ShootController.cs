@@ -11,9 +11,9 @@ public class ShootController : MonoBehaviour
     public GameObject bulletPrefab;
     public Animator animator;
     public float bulletForce;
-    public float fireRate = 0.5f;
-    public float damage = 3.5f;
-    public float range = 0.5f;
+    public float fireRate;
+    public float damage;
+    public float range;
 
     private float nextFire = 0.0f;
 
