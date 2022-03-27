@@ -12,7 +12,7 @@ public class AddRoomToList : MonoBehaviour
         templates = GameObject.FindGameObjectWithTag("Rooms").GetComponent<RoomTemplates>();
         templates.roomsCreated.Add(this.gameObject);
     }
-
+    
     // Update is called once per frame
     void Update()
     {

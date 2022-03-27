@@ -14,15 +14,12 @@ public class DungeonGeneration : MonoBehaviour
     private int randomRoomTemplate;
     private int numRooms;
     private int maxNumRooms;
-    private int roomDoors;
-    private string nameInitialRoom;
 
     private int templateRoom;
-    private string templateRoomName;
-    private string room;
-    private int roomsSpawned = 0;
     private EnemyTemplates enemyTemplates;
     private ItemsTemplates itemsTemplates;
+
+    public List<GameObject> roomsCreated;
 
     // Start is called before the first frame update
     void Start()
@@ -31,10 +28,34 @@ public class DungeonGeneration : MonoBehaviour
         maxNumRooms = Random.Range(15, 26);
 
         initialRoom(templates, transform.position);
+        /*int count = 0;
+        for (int i = 0; i < maxNumRooms; i++)
+        {
+            instantiateRooms(templates, roomsCreated[i], unavailablePositions[i]);
+            Debug.Log("InstantiateRoom: " + roomsCreated[i].name + " Position: " + roomsCreated[i].transform.position);
+            count++;
+        }
 
+        Debug.Log(count);
+        for (int i = 0; i < rooms.Count; i++)
+        {
+            closeRooms(roomsCreated[i]);
+            Debug.Log("Room: " + roomsCreated[i].name + " Position: " + roomsCreated[i].transform.position);
+        }
+        */
+        int count = 0; 
         for (int i = 0; i < maxNumRooms; i++)
         {
             instantiateRooms(templates, rooms[i], unavailablePositions[i]);
+            Debug.Log("InstantiateRoom: " + rooms[i].name + " Position: " + rooms[i].transform.position);
+            count++;
+        }
+
+        Debug.Log(count);
+        for (int i = 0; i < rooms.Count; i++)
+        {
+            closeRooms(rooms[i]);
+            Debug.Log("Room: " + rooms[i].name + " Position: " + rooms[i].transform.position);
         }
 
         enemyTemplates = GameObject.FindGameObjectWithTag("Enemies").GetComponent<EnemyTemplates>();
@@ -42,6 +63,11 @@ public class DungeonGeneration : MonoBehaviour
         enemyTemplates.SpawnBoss(unavailablePositions);
         itemsTemplates = GameObject.FindGameObjectWithTag("Items").GetComponent<ItemsTemplates>();
         itemsTemplates.SpawnItems(unavailablePositions);
+    }
+
+    void Update()
+    {
+        //roomsCreated = GameObject.FindGameObjectWithTag("Rooms").GetComponent<RoomTemplates>().roomsCreated;
     }
 
     private bool checkPosition(Vector2 position, List<Vector2> positons)
@@ -165,30 +191,38 @@ public class DungeonGeneration : MonoBehaviour
         if (randomRoom == 0)
         {
             randomRoomTemplate = Random.Range(1, templates.topRooms.Length);
+            //GameObject room = Instantiate(templates.topRooms[randomRoomTemplate], position, templates.topRooms[randomRoomTemplate].transform.rotation);
             Instantiate(templates.topRooms[randomRoomTemplate], position, templates.topRooms[randomRoomTemplate].transform.rotation);
             unavailablePositions.Add(transform.position);
             rooms.Add(templates.topRooms[randomRoomTemplate]);
+            //GameObject.FindGameObjectWithTag("Rooms").GetComponent<RoomTemplates>().roomsCreated.Add(room);
         }
         else if (randomRoom == 1)
         {
             randomRoomTemplate = Random.Range(1, templates.bottomRooms.Length);
+            //GameObject room = Instantiate(templates.bottomRooms[randomRoomTemplate], position, templates.bottomRooms[randomRoomTemplate].transform.rotation);
             Instantiate(templates.bottomRooms[randomRoomTemplate], position, templates.bottomRooms[randomRoomTemplate].transform.rotation);
             unavailablePositions.Add(transform.position);
             rooms.Add(templates.bottomRooms[randomRoomTemplate]);
+            //GameObject.FindGameObjectWithTag("Rooms").GetComponent<RoomTemplates>().roomsCreated.Add(room);
         }
         else if (randomRoom == 2)
         {
             randomRoomTemplate = Random.Range(1, templates.leftRooms.Length);
+            //GameObject room = Instantiate(templates.leftRooms[randomRoomTemplate], position, templates.leftRooms[randomRoomTemplate].transform.rotation);
             Instantiate(templates.leftRooms[randomRoomTemplate], position, templates.leftRooms[randomRoomTemplate].transform.rotation);
             unavailablePositions.Add(transform.position);
             rooms.Add(templates.leftRooms[randomRoomTemplate]);
+            //GameObject.FindGameObjectWithTag("Rooms").GetComponent<RoomTemplates>().roomsCreated.Add(room);
         }
         else if (randomRoom == 3)
         {
             randomRoomTemplate = Random.Range(1, templates.rightRooms.Length);
+            //GameObject room = Instantiate(templates.rightRooms[randomRoomTemplate], position, templates.rightRooms[randomRoomTemplate].transform.rotation);
             Instantiate(templates.rightRooms[randomRoomTemplate], position, templates.rightRooms[randomRoomTemplate].transform.rotation);
             unavailablePositions.Add(transform.position);
             rooms.Add(templates.rightRooms[randomRoomTemplate]);
+            //GameObject.FindGameObjectWithTag("Rooms").GetComponent<RoomTemplates>().roomsCreated.Add(room);
         }
 
         this.numRooms++;
@@ -580,5 +614,242 @@ public class DungeonGeneration : MonoBehaviour
     private string neighborRightName(Vector2 position)
     {
         return this.rooms[unavailablePositions.IndexOf(new Vector2(position.x, position.y))].name;
+    }
+
+    private void closeRooms(GameObject room)
+    {
+        bool top;
+        bool bottom;
+        bool left;
+        bool right;
+        string roomLetter;
+        List<string> sides = new List<string>();
+        int numDoors = numRoomDoors(room.name);
+        List<string> typeDoors = typeRoomDoors(room.name);
+
+        for (int i = 0; i < numDoors; i++)
+        {
+            roomLetter = typeDoors[Random.Range(0, typeDoors.Count)];
+
+            if (roomLetter == "R")
+            {
+                Vector2 pos = new Vector2(room.transform.position.x + 18, room.transform.position.y);
+                if (checkPosition(pos, this.unavailablePositions) == false)
+                {
+                    top = checkNeighborTop(pos, this.unavailablePositions);
+                    bottom = checkNeighborBottom(pos, this.unavailablePositions);
+                    right = checkNeighborRight(pos, this.unavailablePositions);
+
+                    if (top == false && bottom == false && right == false)
+                    {
+                        Instantiate(templates.leftRooms[0], pos, templates.leftRooms[0].transform.rotation);
+                        rooms.Add(templates.leftRooms[0]);
+                    }
+                    else if (top == false && bottom == true && right == false)
+                    {
+                        Instantiate(templates.leftRooms[1], pos, templates.leftRooms[1].transform.rotation);
+                        rooms.Add(templates.leftRooms[1]);
+                    }
+                    else if (top == false && bottom == false && right == true)
+                    {
+                        Instantiate(templates.leftRooms[2], pos, templates.leftRooms[2].transform.rotation);
+                        rooms.Add(templates.leftRooms[2]);
+                    }
+                    else if (top == true && bottom == false && right == false)
+                    {
+                        Instantiate(templates.leftRooms[3], pos, templates.leftRooms[3].transform.rotation);
+                        rooms.Add(templates.leftRooms[3]);
+                    }
+                    else if (top == false && bottom == true && right == true)
+                    {
+                        Instantiate(templates.leftRooms[4], pos, templates.leftRooms[4].transform.rotation);
+                        rooms.Add(templates.leftRooms[4]);
+                    }
+                    else if (top == true && bottom == true && right == false)
+                    {
+                        Instantiate(templates.leftRooms[5], pos, templates.leftRooms[5].transform.rotation);
+                        rooms.Add(templates.leftRooms[5]);
+                    }
+                    else if (top == true && bottom == false && right == true)
+                    {
+                        Instantiate(templates.leftRooms[6], pos, templates.leftRooms[6].transform.rotation);
+                        rooms.Add(templates.leftRooms[6]);
+                    }
+                    else if (top == true && bottom == true && right == true)
+                    {
+                        Instantiate(templates.leftRooms[7], pos, templates.leftRooms[7].transform.rotation);
+                        rooms.Add(templates.leftRooms[7]);
+                    }
+                    unavailablePositions.Add(pos);
+                    this.numRooms++;
+                }
+                typeDoors.Remove(roomLetter);
+            }
+            if (roomLetter == "L")
+            {
+                Vector2 pos = new Vector2(room.transform.position.x - 18, room.transform.position.y);
+
+                if (checkPosition(pos, this.unavailablePositions) == false)
+                {
+                    top = checkNeighborTop(pos, this.unavailablePositions);
+                    bottom = checkNeighborBottom(pos, this.unavailablePositions);
+                    left = checkNeighborLeft(pos, this.unavailablePositions);
+
+                    if (top == false && bottom == false && left == false)
+                    {
+                        Instantiate(templates.rightRooms[0], pos, templates.rightRooms[0].transform.rotation);
+                        rooms.Add(templates.rightRooms[0]);
+                    }
+                    else if (top == false && bottom == true && left == false)
+                    {
+                        Instantiate(templates.rightRooms[1], pos, templates.rightRooms[1].transform.rotation);
+                        rooms.Add(templates.rightRooms[1]);
+                    }
+                    else if (top == false && bottom == false && left == true)
+                    {
+                        Instantiate(templates.rightRooms[2], pos, templates.rightRooms[2].transform.rotation);
+                        rooms.Add(templates.rightRooms[2]);
+                    }
+                    else if (top == true && bottom == false && left == false)
+                    {
+                        Instantiate(templates.rightRooms[3], pos, templates.rightRooms[3].transform.rotation);
+                        rooms.Add(templates.rightRooms[3]);
+                    }
+                    else if (top == true && bottom == true && left == false)
+                    {
+                        Instantiate(templates.rightRooms[4], pos, templates.rightRooms[4].transform.rotation);
+                        rooms.Add(templates.rightRooms[4]);
+                    }
+                    else if (top == false && bottom == true && left == true)
+                    {
+                        Instantiate(templates.rightRooms[5], pos, templates.rightRooms[5].transform.rotation);
+                        rooms.Add(templates.rightRooms[5]);
+                    }
+                    else if (top == true && bottom == false && left == true)
+                    {
+                        Instantiate(templates.rightRooms[6], pos, templates.rightRooms[6].transform.rotation);
+                        rooms.Add(templates.rightRooms[6]);
+                    }
+                    else if (top == true && bottom == true && left == true)
+                    {
+                        Instantiate(templates.rightRooms[7], pos, templates.rightRooms[7].transform.rotation);
+                        rooms.Add(templates.rightRooms[7]);
+                    }
+                    unavailablePositions.Add(pos);
+                    this.numRooms++;
+                }
+                typeDoors.Remove(roomLetter);
+            }
+            if (roomLetter == "B")
+            {
+                Vector2 pos = new Vector2(room.transform.position.x, room.transform.position.y - 10);
+
+                if (checkPosition(pos, this.unavailablePositions) == false)
+                {
+                    right = checkNeighborRight(pos, this.unavailablePositions);
+                    bottom = checkNeighborBottom(pos, this.unavailablePositions);
+                    left = checkNeighborLeft(pos, this.unavailablePositions);
+
+                    if (right == false && bottom == false && left == false)
+                    {
+                        Instantiate(templates.topRooms[0], pos, templates.topRooms[0].transform.rotation);
+                        rooms.Add(templates.topRooms[0]);
+                    }
+                    else if (right == false && bottom == true && left == false)
+                    {
+                        Instantiate(templates.topRooms[1], pos, templates.topRooms[1].transform.rotation);
+                        rooms.Add(templates.topRooms[1]);
+                    }
+                    else if (right == false && bottom == false && left == true)
+                    {
+                        Instantiate(templates.topRooms[2], pos, templates.topRooms[2].transform.rotation);
+                        rooms.Add(templates.topRooms[2]);
+                    }
+                    else if (right == true && bottom == false && left == false)
+                    {
+                        Instantiate(templates.topRooms[3], pos, templates.topRooms[3].transform.rotation);
+                        rooms.Add(templates.topRooms[3]);
+                    }
+                    else if (right == false && bottom == true && left == true)
+                    {
+                        Instantiate(templates.topRooms[4], pos, templates.topRooms[4].transform.rotation);
+                        rooms.Add(templates.topRooms[4]);
+                    }
+                    else if (right == true && bottom == true && left == false)
+                    {
+                        Instantiate(templates.topRooms[5], pos, templates.topRooms[5].transform.rotation);
+                        rooms.Add(templates.topRooms[5]);
+                    }
+                    else if (right == true && bottom == false && left == true)
+                    {
+                        Instantiate(templates.topRooms[6], pos, templates.topRooms[6].transform.rotation);
+                        rooms.Add(templates.topRooms[6]);
+                    }
+                    else if (right == true && bottom == true && left == true)
+                    {
+                        Instantiate(templates.topRooms[7], pos, templates.topRooms[7].transform.rotation);
+                        rooms.Add(templates.topRooms[7]);
+                    }
+                    unavailablePositions.Add(pos);
+                    this.numRooms++;
+                }
+                typeDoors.Remove(roomLetter);
+            }
+            if (roomLetter == "T")
+            {
+                Vector2 pos = new Vector2(room.transform.position.x, room.transform.position.y + 10);
+
+                if (checkPosition(pos, this.unavailablePositions) == false)
+                {
+                    right = checkNeighborRight(pos, this.unavailablePositions);
+                    top = checkNeighborTop(pos, this.unavailablePositions);
+                    left = checkNeighborLeft(pos, this.unavailablePositions);
+
+                    if (right == false && top == false && left == false)
+                    {
+                        Instantiate(templates.bottomRooms[0], pos, templates.bottomRooms[0].transform.rotation);
+                        rooms.Add(templates.bottomRooms[0]);
+                    }
+                    else if (right == false && top == false && left == true)
+                    {
+                        Instantiate(templates.bottomRooms[1], pos, templates.bottomRooms[1].transform.rotation);
+                        rooms.Add(templates.bottomRooms[1]);
+                    }
+                    else if (right == true && top == false && left == false)
+                    {
+                        Instantiate(templates.bottomRooms[2], pos, templates.bottomRooms[2].transform.rotation);
+                        rooms.Add(templates.bottomRooms[2]);
+                    }
+                    else if (right == false && top == true && left == false)
+                    {
+                        Instantiate(templates.bottomRooms[3], pos, templates.bottomRooms[3].transform.rotation);
+                        rooms.Add(templates.bottomRooms[3]);
+                    }
+                    else if (right == true && top == false && left == true)
+                    {
+                        Instantiate(templates.bottomRooms[4], pos, templates.bottomRooms[4].transform.rotation);
+                        rooms.Add(templates.bottomRooms[4]);
+                    }
+                    else if (right == false && top == true && left == true)
+                    {
+                        Instantiate(templates.bottomRooms[5], pos, templates.bottomRooms[5].transform.rotation);
+                        rooms.Add(templates.bottomRooms[5]);
+                    }
+                    else if (right == true && top == true && left == false)
+                    {
+                        Instantiate(templates.bottomRooms[6], pos, templates.bottomRooms[6].transform.rotation);
+                        rooms.Add(templates.bottomRooms[6]);
+                    }
+                    else if (right == true && top == true && left == true)
+                    {
+                        Instantiate(templates.bottomRooms[7], pos, templates.bottomRooms[7].transform.rotation);
+                        rooms.Add(templates.bottomRooms[7]);
+                    }
+                    unavailablePositions.Add(pos);
+                    this.numRooms++;
+                }
+                typeDoors.Remove(roomLetter);
+            }
+        }
     }
 }
