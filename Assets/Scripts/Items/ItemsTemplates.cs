@@ -20,16 +20,21 @@ public class ItemsTemplates : MonoBehaviour
 
     public void SpawnItems(List<Vector2> roomsSpawned)
     {
-        int nextItem = 5;
+        int nextItem = 8;
 
+        int count = items.Count;
         for (int i = 1; i < roomsSpawned.Count - 1; i++)
         {
             if (i == nextItem)
             {
-                int randomItem = Random.Range(0, items.Count);
-                Instantiate(items[randomItem], roomsSpawned[i], items[randomItem].transform.rotation);
-                items.Remove(items[randomItem]);
-                nextItem = nextItem + 5;
+                if (count > 0)
+                {
+                    int randomItem = Random.Range(0, items.Count);
+                    Instantiate(items[randomItem], roomsSpawned[i], items[randomItem].transform.rotation);
+                    items.Remove(items[randomItem]);
+                    nextItem = nextItem + 5;
+                    count--;
+                }
             }
         }
     }

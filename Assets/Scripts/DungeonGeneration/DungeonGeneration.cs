@@ -47,15 +47,15 @@ public class DungeonGeneration : MonoBehaviour
         for (int i = 0; i < maxNumRooms; i++)
         {
             instantiateRooms(templates, rooms[i], unavailablePositions[i]);
-            Debug.Log("InstantiateRoom: " + rooms[i].name + " Position: " + rooms[i].transform.position);
+            Debug.Log("InstantiateRoom: " + rooms[i].name + " Position: " + unavailablePositions[i]);
             count++;
         }
 
         Debug.Log(count);
         for (int i = 0; i < rooms.Count; i++)
         {
-            closeRooms(rooms[i]);
-            Debug.Log("Room: " + rooms[i].name + " Position: " + rooms[i].transform.position);
+            closeRooms(rooms[i], unavailablePositions[i]);
+            Debug.Log("Room: " + rooms[i].name + " Position: " + unavailablePositions[i]);
         }
 
         enemyTemplates = GameObject.FindGameObjectWithTag("Enemies").GetComponent<EnemyTemplates>();
@@ -616,7 +616,7 @@ public class DungeonGeneration : MonoBehaviour
         return this.rooms[unavailablePositions.IndexOf(new Vector2(position.x, position.y))].name;
     }
 
-    private void closeRooms(GameObject room)
+    private void closeRooms(GameObject room, Vector2 position)
     {
         bool top;
         bool bottom;
@@ -633,7 +633,7 @@ public class DungeonGeneration : MonoBehaviour
 
             if (roomLetter == "R")
             {
-                Vector2 pos = new Vector2(room.transform.position.x + 18, room.transform.position.y);
+                Vector2 pos = new Vector2(position.x + 18, position.y);
                 if (checkPosition(pos, this.unavailablePositions) == false)
                 {
                     top = checkNeighborTop(pos, this.unavailablePositions);
@@ -687,7 +687,7 @@ public class DungeonGeneration : MonoBehaviour
             }
             if (roomLetter == "L")
             {
-                Vector2 pos = new Vector2(room.transform.position.x - 18, room.transform.position.y);
+                Vector2 pos = new Vector2(position.x - 18, position.y);
 
                 if (checkPosition(pos, this.unavailablePositions) == false)
                 {
@@ -742,7 +742,7 @@ public class DungeonGeneration : MonoBehaviour
             }
             if (roomLetter == "B")
             {
-                Vector2 pos = new Vector2(room.transform.position.x, room.transform.position.y - 10);
+                Vector2 pos = new Vector2(position.x, position.y - 10);
 
                 if (checkPosition(pos, this.unavailablePositions) == false)
                 {
@@ -797,7 +797,7 @@ public class DungeonGeneration : MonoBehaviour
             }
             if (roomLetter == "T")
             {
-                Vector2 pos = new Vector2(room.transform.position.x, room.transform.position.y + 10);
+                Vector2 pos = new Vector2(position.x, position.y + 10);
 
                 if (checkPosition(pos, this.unavailablePositions) == false)
                 {
