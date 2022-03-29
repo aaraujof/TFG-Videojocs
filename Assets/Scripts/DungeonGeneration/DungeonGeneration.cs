@@ -21,41 +21,27 @@ public class DungeonGeneration : MonoBehaviour
 
     public List<GameObject> roomsCreated;
 
-    // Start is called before the first frame update
     void Start()
     {
         templates = GameObject.FindGameObjectWithTag("Rooms").GetComponent<RoomTemplates>();
         maxNumRooms = Random.Range(15, 26);
 
         initialRoom(templates, transform.position);
-        /*int count = 0;
-        for (int i = 0; i < maxNumRooms; i++)
-        {
-            instantiateRooms(templates, roomsCreated[i], unavailablePositions[i]);
-            Debug.Log("InstantiateRoom: " + roomsCreated[i].name + " Position: " + roomsCreated[i].transform.position);
-            count++;
-        }
 
-        Debug.Log(count);
-        for (int i = 0; i < rooms.Count; i++)
-        {
-            closeRooms(roomsCreated[i]);
-            Debug.Log("Room: " + roomsCreated[i].name + " Position: " + roomsCreated[i].transform.position);
-        }
-        */
-        int count = 0; 
+        //int count = 0; 
         for (int i = 0; i < maxNumRooms; i++)
         {
             instantiateRooms(templates, rooms[i], unavailablePositions[i]);
-            Debug.Log("InstantiateRoom: " + rooms[i].name + " Position: " + unavailablePositions[i]);
-            count++;
+            //Debug.Log("InstantiateRoom: " + rooms[i].name + " Position: " + unavailablePositions[i]);
+            //count++;
         }
 
-        Debug.Log(count);
+        //Debug.Log(count);
+
         for (int i = 0; i < rooms.Count; i++)
         {
             closeRooms(rooms[i], unavailablePositions[i]);
-            Debug.Log("Room: " + rooms[i].name + " Position: " + unavailablePositions[i]);
+            //Debug.Log("Room: " + rooms[i].name + " Position: " + unavailablePositions[i]);
         }
 
         enemyTemplates = GameObject.FindGameObjectWithTag("Enemies").GetComponent<EnemyTemplates>();
@@ -67,7 +53,7 @@ public class DungeonGeneration : MonoBehaviour
 
     void Update()
     {
-        //roomsCreated = GameObject.FindGameObjectWithTag("Rooms").GetComponent<RoomTemplates>().roomsCreated;
+        //
     }
 
     private bool checkPosition(Vector2 position, List<Vector2> positons)
@@ -191,38 +177,30 @@ public class DungeonGeneration : MonoBehaviour
         if (randomRoom == 0)
         {
             randomRoomTemplate = Random.Range(1, templates.topRooms.Length);
-            //GameObject room = Instantiate(templates.topRooms[randomRoomTemplate], position, templates.topRooms[randomRoomTemplate].transform.rotation);
             Instantiate(templates.topRooms[randomRoomTemplate], position, templates.topRooms[randomRoomTemplate].transform.rotation);
             unavailablePositions.Add(transform.position);
             rooms.Add(templates.topRooms[randomRoomTemplate]);
-            //GameObject.FindGameObjectWithTag("Rooms").GetComponent<RoomTemplates>().roomsCreated.Add(room);
         }
         else if (randomRoom == 1)
         {
             randomRoomTemplate = Random.Range(1, templates.bottomRooms.Length);
-            //GameObject room = Instantiate(templates.bottomRooms[randomRoomTemplate], position, templates.bottomRooms[randomRoomTemplate].transform.rotation);
             Instantiate(templates.bottomRooms[randomRoomTemplate], position, templates.bottomRooms[randomRoomTemplate].transform.rotation);
             unavailablePositions.Add(transform.position);
             rooms.Add(templates.bottomRooms[randomRoomTemplate]);
-            //GameObject.FindGameObjectWithTag("Rooms").GetComponent<RoomTemplates>().roomsCreated.Add(room);
         }
         else if (randomRoom == 2)
         {
             randomRoomTemplate = Random.Range(1, templates.leftRooms.Length);
-            //GameObject room = Instantiate(templates.leftRooms[randomRoomTemplate], position, templates.leftRooms[randomRoomTemplate].transform.rotation);
             Instantiate(templates.leftRooms[randomRoomTemplate], position, templates.leftRooms[randomRoomTemplate].transform.rotation);
             unavailablePositions.Add(transform.position);
             rooms.Add(templates.leftRooms[randomRoomTemplate]);
-            //GameObject.FindGameObjectWithTag("Rooms").GetComponent<RoomTemplates>().roomsCreated.Add(room);
         }
         else if (randomRoom == 3)
         {
             randomRoomTemplate = Random.Range(1, templates.rightRooms.Length);
-            //GameObject room = Instantiate(templates.rightRooms[randomRoomTemplate], position, templates.rightRooms[randomRoomTemplate].transform.rotation);
             Instantiate(templates.rightRooms[randomRoomTemplate], position, templates.rightRooms[randomRoomTemplate].transform.rotation);
             unavailablePositions.Add(transform.position);
             rooms.Add(templates.rightRooms[randomRoomTemplate]);
-            //GameObject.FindGameObjectWithTag("Rooms").GetComponent<RoomTemplates>().roomsCreated.Add(room);
         }
 
         this.numRooms++;
