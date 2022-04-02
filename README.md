@@ -7,4 +7,4 @@ In this level the player will go around with the character eliminating enemies a
 
 The explanatory video is inside the "Explanatory video" folder.
 
-The Project executable is inside the "Executable" folder.
+The executable of the videogame is inside the "Executable" folder.
