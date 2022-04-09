@@ -13,6 +13,7 @@ public class BulletController : MonoBehaviour
         {
             if ("Enemy" == collision.gameObject.tag)
             {
+                // Take hp
                 if ("Larva(Clone)" == collision.gameObject.name)
                 {
                     collision.gameObject.GetComponent<LarvaController>().Damage(GameObject.Find("Player").GetComponent<ShootController>().damage);
@@ -34,6 +35,7 @@ public class BulletController : MonoBehaviour
                     collision.gameObject.GetComponent<FrogController>().Damage(GameObject.Find("Player").GetComponent<ShootController>().damage);
                 }
             }
+
             GameObject effect = Instantiate(hitEffect, transform.position, Quaternion.identity);
             Destroy(effect, 0.1f);
             Destroy(gameObject);

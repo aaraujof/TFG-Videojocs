@@ -29,7 +29,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7441707094507732648}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -5.26, y: -0.049000002, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -139,10 +139,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rb: {fileID: 7441707094507732655}
+  col: {fileID: 7441707094507732649}
   animator: {fileID: 7441707094507732652}
+  spriteRenderer: {fileID: 7441707094507732653}
   speed: 0.8
   playerDistance: 0
   visionRange: 5
+  room: {x: 0, y: 0}
 --- !u!70 &7441707094507732649
 CapsuleCollider2D:
   m_ObjectHideFlags: 0

@@ -28,20 +28,14 @@ public class DungeonGeneration : MonoBehaviour
 
         initialRoom(templates, transform.position);
 
-        //int count = 0; 
         for (int i = 0; i < maxNumRooms; i++)
         {
             instantiateRooms(templates, rooms[i], unavailablePositions[i]);
-            //Debug.Log("InstantiateRoom: " + rooms[i].name + " Position: " + unavailablePositions[i]);
-            //count++;
         }
-
-        //Debug.Log(count);
 
         for (int i = 0; i < rooms.Count; i++)
         {
             closeRooms(rooms[i], unavailablePositions[i]);
-            //Debug.Log("Room: " + rooms[i].name + " Position: " + unavailablePositions[i]);
         }
 
         enemyTemplates = GameObject.FindGameObjectWithTag("Enemies").GetComponent<EnemyTemplates>();
@@ -49,11 +43,6 @@ public class DungeonGeneration : MonoBehaviour
         enemyTemplates.SpawnBoss(unavailablePositions);
         itemsTemplates = GameObject.FindGameObjectWithTag("Items").GetComponent<ItemsTemplates>();
         itemsTemplates.SpawnItems(unavailablePositions);
-    }
-
-    void Update()
-    {
-        //
     }
 
     private bool checkPosition(Vector2 position, List<Vector2> positons)

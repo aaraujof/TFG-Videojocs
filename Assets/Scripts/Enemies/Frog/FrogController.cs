@@ -6,14 +6,17 @@ using UnityEngine.SceneManagement;
 public class FrogController : MonoBehaviour
 {
     public Rigidbody2D rb;
+    public Collider2D col;
     public Animator animator;
+    public SpriteRenderer spriteRenderer;
     public float speed;
     public float playerDistance;
     public float visionRange;
-    public SpriteRenderer spriteRenderer;
     public float hp;
+    public Vector2 room;
 
     private Transform player;
+    private bool playerInsideRoom;
 
     // Start is called before the first frame update
     void Start()
@@ -27,6 +30,7 @@ public class FrogController : MonoBehaviour
         // Dead
         if (hp <= 0)
         {
+            Destroy(col);
             animator.SetBool("Dead", true);
             rb.mass = 999;
             StartCoroutine(WaitingToMenu(2f));
@@ -40,10 +44,12 @@ public class FrogController : MonoBehaviour
     void FixedUpdate()
     {
         playerDistance = Vector2.Distance(player.position, rb.position);
+        playerInsideRoom = playerInRoom(player.position, room);
+
         if (hp > 0)
         {
             // Movement
-            if (playerDistance < visionRange)
+            if (playerDistance < visionRange && playerInsideRoom == true)
             {
                 Vector2 objective = new Vector2(player.position.x, player.position.y);
                 Vector2 newPosition = Vector2.MoveTowards(rb.position, objective, speed * Time.deltaTime);
@@ -105,6 +111,28 @@ public class FrogController : MonoBehaviour
         hp = hp - damage;
     }
 
+    private bool playerInRoom(Vector2 player, Vector2 enemyRoom)
+    {
+        bool inRoom = false;
+
+        float roomMaxX = enemyRoom.x + 8;
+        float roomMinX = enemyRoom.x - 8;
+        float roomMaxY = enemyRoom.y + 4;
+        float roomMinY = enemyRoom.y - 4;
+
+        if (player.x < roomMaxX && player.x > roomMinX && player.y < roomMaxY && player.y > roomMinY)
+        {
+            inRoom = true;
+        }
+
+        return inRoom;
+    }
+
+    public void SetValues(Vector2 position)
+    {
+        this.room = position;
+    }
+
     void OnCollisionEnter2D(Collision2D collision)
     {
         // Damage player
@@ -112,6 +140,21 @@ public class FrogController : MonoBehaviour
         {
             collision.gameObject.GetComponent<PlayerController>().Damage();
         }
+
+        // Change color on hit
+        if ("Bullet" == collision.gameObject.tag)
+        {
+            StartCoroutine(changeColorOnHit(0.1f));
+        }
+    }
+
+    IEnumerator changeColorOnHit(float wait)
+    {
+        spriteRenderer.color = Color.red;
+
+        yield return new WaitForSeconds(wait);
+
+        spriteRenderer.color = Color.white;
     }
 
     IEnumerator WaitingToMenu(float wait)

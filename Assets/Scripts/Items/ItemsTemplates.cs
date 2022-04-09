@@ -6,18 +6,6 @@ public class ItemsTemplates : MonoBehaviour
 {
     public List<GameObject> items;
 
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
     public void SpawnItems(List<Vector2> roomsSpawned)
     {
         int nextItem = 7;
