@@ -30,7 +30,7 @@ public class FrogController : MonoBehaviour
         // Dead
         if (hp <= 0)
         {
-            Destroy(col);
+            col.isTrigger = true;
             animator.SetBool("Dead", true);
             rb.mass = 999;
             StartCoroutine(WaitingToMenu(2f));

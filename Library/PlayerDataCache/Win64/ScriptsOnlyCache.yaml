@@ -1,5 +1,7 @@
 ScriptsOnlyBuild:
   usedScripts:
+    Assembly-CSharp-Editor.dll:
+    - PlayerPrefsEditor
     Assembly-CSharp.dll:
     - AddRoomToList
     - BulletController
@@ -496,7 +498,7 @@ ScriptsOnlyBuild:
     className: CinemachineCameraOffset
   - hash:
       serializedVersion: 2
-      Hash: 6edb070ee460875bd84665c5c3c4306b
+      Hash: 18b826654cb7d35715bf371b7d999999
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: MouseController
@@ -604,7 +606,7 @@ ScriptsOnlyBuild:
     className: CinemachineBrain
   - hash:
       serializedVersion: 2
-      Hash: 6edb070ee460875bd84665c5c3c4306b
+      Hash: 18b826654cb7d35715bf371b7d999999
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: LarvaController
@@ -694,7 +696,7 @@ ScriptsOnlyBuild:
     className: TimelineAsset
   - hash:
       serializedVersion: 2
-      Hash: 2384e643dcbe845b595e661ccf908e0c
+      Hash: 782eb25deb827df73cbf966b807491d7
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: FrogController
@@ -940,7 +942,7 @@ ScriptsOnlyBuild:
     className: PlayerQuitHandler
   - hash:
       serializedVersion: 2
-      Hash: 6edb070ee460875bd84665c5c3c4306b
+      Hash: 18b826654cb7d35715bf371b7d999999
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: SlimeController

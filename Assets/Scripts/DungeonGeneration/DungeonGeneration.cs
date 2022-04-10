@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class DungeonGeneration : MonoBehaviour
 {
@@ -30,7 +31,17 @@ public class DungeonGeneration : MonoBehaviour
 
         for (int i = 0; i < maxNumRooms; i++)
         {
-            instantiateRooms(templates, rooms[i], unavailablePositions[i]);
+            if (rooms.Count > i)
+            {
+                instantiateRooms(templates, rooms[i], unavailablePositions[i]);
+                Debug.Log(rooms[i]);
+            }
+        }
+
+        //If Dungeon generation fails (No created between 15 and 25 rooms) then reload scene
+        if (rooms.Count <= 15)
+        {
+            Scene scene = SceneManager.GetActiveScene(); SceneManager.LoadScene(scene.name);
         }
 
         for (int i = 0; i < rooms.Count; i++)

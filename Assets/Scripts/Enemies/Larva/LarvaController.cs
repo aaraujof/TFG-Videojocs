@@ -29,7 +29,9 @@ public class LarvaController : MonoBehaviour
         // Dead
         if (hp <= 0)
         {
-            Destroy(col);
+            col.isTrigger = true;
+            PlayerPrefs.SetInt("myNumber", 100);
+            PlayerPrefs.Save();
             animator.SetBool("Dead", true);
             rb.mass = 999;
             Destroy(gameObject,0.8f);
