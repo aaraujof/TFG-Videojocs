@@ -884,6 +884,2652 @@ TextureImporter:
   - first:
       213: -3081100875045769376
     second: TilesetInteriorFloor_293
+  - first:
+      213: -2178091769692321496
+    second: TilesetInteriorFloor_294
+  - first:
+      213: -7690898328957865489
+    second: TilesetInteriorFloor_295
+  - first:
+      213: 4874547619545133188
+    second: TilesetInteriorFloor_296
+  - first:
+      213: 7790854437899178058
+    second: TilesetInteriorFloor_297
+  - first:
+      213: 1522800585209584086
+    second: TilesetInteriorFloor_298
+  - first:
+      213: 3657209389637360495
+    second: TilesetInteriorFloor_299
+  - first:
+      213: -643968407196679888
+    second: TilesetInteriorFloor_300
+  - first:
+      213: 394864226220492892
+    second: TilesetInteriorFloor_301
+  - first:
+      213: -3519903620433925955
+    second: TilesetInteriorFloor_302
+  - first:
+      213: -9159782388193730526
+    second: TilesetInteriorFloor_303
+  - first:
+      213: 6210853429747188948
+    second: TilesetInteriorFloor_304
+  - first:
+      213: -8920922941593196170
+    second: TilesetInteriorFloor_305
+  - first:
+      213: -849577952049224042
+    second: TilesetInteriorFloor_306
+  - first:
+      213: 5135501073969460850
+    second: TilesetInteriorFloor_307
+  - first:
+      213: -9051123286249043821
+    second: TilesetInteriorFloor_308
+  - first:
+      213: -802123480014920451
+    second: TilesetInteriorFloor_309
+  - first:
+      213: -7271592533519795454
+    second: TilesetInteriorFloor_310
+  - first:
+      213: -3805539104871156074
+    second: TilesetInteriorFloor_311
+  - first:
+      213: 2283804531207729523
+    second: TilesetInteriorFloor_312
+  - first:
+      213: -996761791099853533
+    second: TilesetInteriorFloor_313
+  - first:
+      213: 4594952230925742514
+    second: TilesetInteriorFloor_314
+  - first:
+      213: 4728524032724502349
+    second: TilesetInteriorFloor_315
+  - first:
+      213: 7060826465391487036
+    second: TilesetInteriorFloor_316
+  - first:
+      213: -6836371977178138876
+    second: TilesetInteriorFloor_317
+  - first:
+      213: 6054046027541488705
+    second: TilesetInteriorFloor_318
+  - first:
+      213: -5035476915645887694
+    second: TilesetInteriorFloor_319
+  - first:
+      213: -7858367359990960561
+    second: TilesetInteriorFloor_320
+  - first:
+      213: -3453430314816879840
+    second: TilesetInteriorFloor_321
+  - first:
+      213: -218266239071436972
+    second: TilesetInteriorFloor_322
+  - first:
+      213: -2351564573008162447
+    second: TilesetInteriorFloor_323
+  - first:
+      213: -7034524130714997872
+    second: TilesetInteriorFloor_324
+  - first:
+      213: -9114195229796044044
+    second: TilesetInteriorFloor_325
+  - first:
+      213: -6354338014120729936
+    second: TilesetInteriorFloor_326
+  - first:
+      213: -7655518745037056132
+    second: TilesetInteriorFloor_327
+  - first:
+      213: -8574113630049037820
+    second: TilesetInteriorFloor_328
+  - first:
+      213: -1095824391796005144
+    second: TilesetInteriorFloor_329
+  - first:
+      213: -3794236384074773436
+    second: TilesetInteriorFloor_330
+  - first:
+      213: -6587726409063827661
+    second: TilesetInteriorFloor_331
+  - first:
+      213: 35298533034898199
+    second: TilesetInteriorFloor_332
+  - first:
+      213: -826666013899750014
+    second: TilesetInteriorFloor_333
+  - first:
+      213: 1529794519629631254
+    second: TilesetInteriorFloor_334
+  - first:
+      213: 1466663119600966513
+    second: TilesetInteriorFloor_335
+  - first:
+      213: -4668541497026363706
+    second: TilesetInteriorFloor_336
+  - first:
+      213: 6862655095434748435
+    second: TilesetInteriorFloor_337
+  - first:
+      213: 6562866182924394676
+    second: TilesetInteriorFloor_338
+  - first:
+      213: 1205194062859626885
+    second: TilesetInteriorFloor_339
+  - first:
+      213: 8627790798065270236
+    second: TilesetInteriorFloor_340
+  - first:
+      213: 5035239613937054202
+    second: TilesetInteriorFloor_341
+  - first:
+      213: 4677123641529067684
+    second: TilesetInteriorFloor_342
+  - first:
+      213: -1555908935669213077
+    second: TilesetInteriorFloor_343
+  - first:
+      213: -116673683697480684
+    second: TilesetInteriorFloor_344
+  - first:
+      213: -8286821707205280270
+    second: TilesetInteriorFloor_345
+  - first:
+      213: 2337312013982151204
+    second: TilesetInteriorFloor_346
+  - first:
+      213: -1727754256671841588
+    second: TilesetInteriorFloor_347
+  - first:
+      213: -2619438832720183139
+    second: TilesetInteriorFloor_348
+  - first:
+      213: -8441071005600865025
+    second: TilesetInteriorFloor_349
+  - first:
+      213: 6972999502120725629
+    second: TilesetInteriorFloor_350
+  - first:
+      213: 2831252295531356303
+    second: TilesetInteriorFloor_351
+  - first:
+      213: 4533588722924857237
+    second: TilesetInteriorFloor_352
+  - first:
+      213: -8037050861087752337
+    second: TilesetInteriorFloor_353
+  - first:
+      213: -159988016518773199
+    second: TilesetInteriorFloor_354
+  - first:
+      213: -2886323900393628514
+    second: TilesetInteriorFloor_355
+  - first:
+      213: 310530264716528290
+    second: TilesetInteriorFloor_356
+  - first:
+      213: -606853224098735282
+    second: TilesetInteriorFloor_357
+  - first:
+      213: 6622009129823733116
+    second: TilesetInteriorFloor_358
+  - first:
+      213: -8500909019587099809
+    second: TilesetInteriorFloor_359
+  - first:
+      213: -1536235997437001945
+    second: TilesetInteriorFloor_360
+  - first:
+      213: 4090223543269582510
+    second: TilesetInteriorFloor_361
+  - first:
+      213: 4647144063996362729
+    second: TilesetInteriorFloor_362
+  - first:
+      213: -5044217016230018356
+    second: TilesetInteriorFloor_363
+  - first:
+      213: 2399718261839011515
+    second: TilesetInteriorFloor_364
+  - first:
+      213: -2615824842799473454
+    second: TilesetInteriorFloor_365
+  - first:
+      213: 3180410975623814909
+    second: TilesetInteriorFloor_366
+  - first:
+      213: -6030791181395924305
+    second: TilesetInteriorFloor_367
+  - first:
+      213: 2726271984143610118
+    second: TilesetInteriorFloor_368
+  - first:
+      213: -6003905836609127905
+    second: TilesetInteriorFloor_369
+  - first:
+      213: 4062380808920365524
+    second: TilesetInteriorFloor_370
+  - first:
+      213: -893008832254021756
+    second: TilesetInteriorFloor_371
+  - first:
+      213: -610388145461289141
+    second: TilesetInteriorFloor_372
+  - first:
+      213: 738510724220299568
+    second: TilesetInteriorFloor_373
+  - first:
+      213: 6007035395068056450
+    second: TilesetInteriorFloor_374
+  - first:
+      213: 7489813486709468510
+    second: TilesetInteriorFloor_375
+  - first:
+      213: 5782556517548373594
+    second: TilesetInteriorFloor_376
+  - first:
+      213: -5243233989389025126
+    second: TilesetInteriorFloor_377
+  - first:
+      213: -1367307586167032873
+    second: TilesetInteriorFloor_378
+  - first:
+      213: -6099739753650537716
+    second: TilesetInteriorFloor_379
+  - first:
+      213: 2015468271236975063
+    second: TilesetInteriorFloor_380
+  - first:
+      213: 5236928072868932081
+    second: TilesetInteriorFloor_381
+  - first:
+      213: 1531308877202803592
+    second: TilesetInteriorFloor_382
+  - first:
+      213: 264102575164622486
+    second: TilesetInteriorFloor_383
+  - first:
+      213: -5784138549236544107
+    second: TilesetInteriorFloor_384
+  - first:
+      213: 4846554498234726900
+    second: TilesetInteriorFloor_385
+  - first:
+      213: -8063175984789948537
+    second: TilesetInteriorFloor_386
+  - first:
+      213: 4028698328816475224
+    second: TilesetInteriorFloor_387
+  - first:
+      213: 2684064330637870312
+    second: TilesetInteriorFloor_388
+  - first:
+      213: -7182103116650503312
+    second: TilesetInteriorFloor_389
+  - first:
+      213: -1418894843202297682
+    second: TilesetInteriorFloor_390
+  - first:
+      213: 5859329618811629179
+    second: TilesetInteriorFloor_391
+  - first:
+      213: -3090409300126397433
+    second: TilesetInteriorFloor_392
+  - first:
+      213: 2956116699691519812
+    second: TilesetInteriorFloor_393
+  - first:
+      213: -3644089263714104302
+    second: TilesetInteriorFloor_394
+  - first:
+      213: -1547508018323581847
+    second: TilesetInteriorFloor_395
+  - first:
+      213: -6910814153040848640
+    second: TilesetInteriorFloor_396
+  - first:
+      213: -5080190644552603729
+    second: TilesetInteriorFloor_397
+  - first:
+      213: 5146350980410872438
+    second: TilesetInteriorFloor_398
+  - first:
+      213: -8106213882307872702
+    second: TilesetInteriorFloor_399
+  - first:
+      213: 7406442569911351522
+    second: TilesetInteriorFloor_400
+  - first:
+      213: 3384692912073975551
+    second: TilesetInteriorFloor_401
+  - first:
+      213: 6711921735105056378
+    second: TilesetInteriorFloor_402
+  - first:
+      213: 509149673117471219
+    second: TilesetInteriorFloor_403
+  - first:
+      213: 1018303725972787401
+    second: TilesetInteriorFloor_404
+  - first:
+      213: 6003527369332534173
+    second: TilesetInteriorFloor_405
+  - first:
+      213: 2603062816117550630
+    second: TilesetInteriorFloor_406
+  - first:
+      213: 3598629655592317586
+    second: TilesetInteriorFloor_407
+  - first:
+      213: -3853998202492419402
+    second: TilesetInteriorFloor_408
+  - first:
+      213: -4051911074512654615
+    second: TilesetInteriorFloor_409
+  - first:
+      213: -3208872853625401083
+    second: TilesetInteriorFloor_410
+  - first:
+      213: -6122964273677607932
+    second: TilesetInteriorFloor_411
+  - first:
+      213: 4806081685624743343
+    second: TilesetInteriorFloor_412
+  - first:
+      213: -8520763587078043282
+    second: TilesetInteriorFloor_413
+  - first:
+      213: 6137531767621202965
+    second: TilesetInteriorFloor_414
+  - first:
+      213: 8041415253969501607
+    second: TilesetInteriorFloor_415
+  - first:
+      213: 5219057451665740748
+    second: TilesetInteriorFloor_416
+  - first:
+      213: 5805389169427173084
+    second: TilesetInteriorFloor_417
+  - first:
+      213: 4355243628296802494
+    second: TilesetInteriorFloor_418
+  - first:
+      213: 4679020016005875544
+    second: TilesetInteriorFloor_419
+  - first:
+      213: 2067896378876018006
+    second: TilesetInteriorFloor_420
+  - first:
+      213: -3204873940868864634
+    second: TilesetInteriorFloor_421
+  - first:
+      213: 8629552903803568348
+    second: TilesetInteriorFloor_422
+  - first:
+      213: -2195472943866307339
+    second: TilesetInteriorFloor_423
+  - first:
+      213: 5231768819707852252
+    second: TilesetInteriorFloor_424
+  - first:
+      213: 9051268634977948245
+    second: TilesetInteriorFloor_425
+  - first:
+      213: -1384648146085349568
+    second: TilesetInteriorFloor_426
+  - first:
+      213: -5854148064655152224
+    second: TilesetInteriorFloor_427
+  - first:
+      213: -7357387107601193924
+    second: TilesetInteriorFloor_428
+  - first:
+      213: -5869560345567824052
+    second: TilesetInteriorFloor_429
+  - first:
+      213: -8640895804818903226
+    second: TilesetInteriorFloor_430
+  - first:
+      213: -2436307902036042623
+    second: TilesetInteriorFloor_431
+  - first:
+      213: 2862896645859739865
+    second: TilesetInteriorFloor_432
+  - first:
+      213: 5654283857283571205
+    second: TilesetInteriorFloor_433
+  - first:
+      213: 3193792655449448901
+    second: TilesetInteriorFloor_434
+  - first:
+      213: -4574652632323341574
+    second: TilesetInteriorFloor_435
+  - first:
+      213: -8880734327268060798
+    second: TilesetInteriorFloor_436
+  - first:
+      213: -4615019381059520377
+    second: TilesetInteriorFloor_437
+  - first:
+      213: 8559273186966324073
+    second: TilesetInteriorFloor_438
+  - first:
+      213: -2839150977698919077
+    second: TilesetInteriorFloor_439
+  - first:
+      213: -5169187157796463112
+    second: TilesetInteriorFloor_440
+  - first:
+      213: 4272483142493484723
+    second: TilesetInteriorFloor_441
+  - first:
+      213: -4617014805368791340
+    second: TilesetInteriorFloor_442
+  - first:
+      213: 1296582011971406786
+    second: TilesetInteriorFloor_443
+  - first:
+      213: 8541100944230243136
+    second: TilesetInteriorFloor_444
+  - first:
+      213: 7670389934245507423
+    second: TilesetInteriorFloor_445
+  - first:
+      213: -769990389732216254
+    second: TilesetInteriorFloor_446
+  - first:
+      213: 1597949819239092867
+    second: TilesetInteriorFloor_447
+  - first:
+      213: 5266986989310267630
+    second: TilesetInteriorFloor_448
+  - first:
+      213: -8447537751481125510
+    second: TilesetInteriorFloor_449
+  - first:
+      213: -4200053292125319748
+    second: TilesetInteriorFloor_450
+  - first:
+      213: 7889067023346441664
+    second: TilesetInteriorFloor_451
+  - first:
+      213: -1464170501072296703
+    second: TilesetInteriorFloor_452
+  - first:
+      213: -7215166568132752516
+    second: TilesetInteriorFloor_453
+  - first:
+      213: -9202903250133779491
+    second: TilesetInteriorFloor_454
+  - first:
+      213: -5873519294799106337
+    second: TilesetInteriorFloor_455
+  - first:
+      213: 8834723994187469122
+    second: TilesetInteriorFloor_456
+  - first:
+      213: -7551011518752862197
+    second: TilesetInteriorFloor_457
+  - first:
+      213: -7326002404814027826
+    second: TilesetInteriorFloor_458
+  - first:
+      213: 2165560105911585867
+    second: TilesetInteriorFloor_459
+  - first:
+      213: -2668991794460819760
+    second: TilesetInteriorFloor_460
+  - first:
+      213: -5546376765735432158
+    second: TilesetInteriorFloor_461
+  - first:
+      213: -4511076930641929208
+    second: TilesetInteriorFloor_462
+  - first:
+      213: -1175241153974646268
+    second: TilesetInteriorFloor_463
+  - first:
+      213: 5760386711148989171
+    second: TilesetInteriorFloor_464
+  - first:
+      213: -8709365011379795940
+    second: TilesetInteriorFloor_465
+  - first:
+      213: -5045231961213195730
+    second: TilesetInteriorFloor_466
+  - first:
+      213: -1762840494483291794
+    second: TilesetInteriorFloor_467
+  - first:
+      213: 6464350524417111241
+    second: TilesetInteriorFloor_468
+  - first:
+      213: 7690191011554641318
+    second: TilesetInteriorFloor_469
+  - first:
+      213: -5168240278846420233
+    second: TilesetInteriorFloor_470
+  - first:
+      213: 6581669066159085580
+    second: TilesetInteriorFloor_471
+  - first:
+      213: 8341735991062756759
+    second: TilesetInteriorFloor_472
+  - first:
+      213: -8726560689223007758
+    second: TilesetInteriorFloor_473
+  - first:
+      213: 7354756406933482339
+    second: TilesetInteriorFloor_474
+  - first:
+      213: 8051191742614890026
+    second: TilesetInteriorFloor_475
+  - first:
+      213: 7456985465997799625
+    second: TilesetInteriorFloor_476
+  - first:
+      213: -6407560298987035804
+    second: TilesetInteriorFloor_477
+  - first:
+      213: -6228304587825959185
+    second: TilesetInteriorFloor_478
+  - first:
+      213: 5373209638840687059
+    second: TilesetInteriorFloor_479
+  - first:
+      213: 4715619208819788179
+    second: TilesetInteriorFloor_480
+  - first:
+      213: 8636869231367744973
+    second: TilesetInteriorFloor_481
+  - first:
+      213: 634587673329575944
+    second: TilesetInteriorFloor_482
+  - first:
+      213: -7647514673196664401
+    second: TilesetInteriorFloor_483
+  - first:
+      213: 4805547850106978781
+    second: TilesetInteriorFloor_484
+  - first:
+      213: 4423091742410582770
+    second: TilesetInteriorFloor_485
+  - first:
+      213: -121749785404936810
+    second: TilesetInteriorFloor_486
+  - first:
+      213: -2002555324630340808
+    second: TilesetInteriorFloor_487
+  - first:
+      213: -4343654775290215576
+    second: TilesetInteriorFloor_488
+  - first:
+      213: 3534089144790505542
+    second: TilesetInteriorFloor_489
+  - first:
+      213: 5268751487055496666
+    second: TilesetInteriorFloor_490
+  - first:
+      213: 3608326043678332774
+    second: TilesetInteriorFloor_491
+  - first:
+      213: -8722111230763500084
+    second: TilesetInteriorFloor_492
+  - first:
+      213: 4005608660178412796
+    second: TilesetInteriorFloor_493
+  - first:
+      213: 5343898975381225595
+    second: TilesetInteriorFloor_494
+  - first:
+      213: -6031273121234123504
+    second: TilesetInteriorFloor_495
+  - first:
+      213: -1324056110432091279
+    second: TilesetInteriorFloor_496
+  - first:
+      213: 3910352479019652065
+    second: TilesetInteriorFloor_497
+  - first:
+      213: -2790196224875942606
+    second: TilesetInteriorFloor_498
+  - first:
+      213: -6801333963224682308
+    second: TilesetInteriorFloor_499
+  - first:
+      213: -7482824932536158425
+    second: TilesetInteriorFloor_500
+  - first:
+      213: -8536065080914393036
+    second: TilesetInteriorFloor_501
+  - first:
+      213: 8499476158720660440
+    second: TilesetInteriorFloor_502
+  - first:
+      213: -48647134890069371
+    second: TilesetInteriorFloor_503
+  - first:
+      213: 6756012096931476020
+    second: TilesetInteriorFloor_504
+  - first:
+      213: -5608413523866855689
+    second: TilesetInteriorFloor_505
+  - first:
+      213: 2528635892778614164
+    second: TilesetInteriorFloor_506
+  - first:
+      213: 7630863161832045866
+    second: TilesetInteriorFloor_507
+  - first:
+      213: -4795647211453705357
+    second: TilesetInteriorFloor_508
+  - first:
+      213: -596576260114378961
+    second: TilesetInteriorFloor_509
+  - first:
+      213: -5754432714373775824
+    second: TilesetInteriorFloor_510
+  - first:
+      213: -658772465933354874
+    second: TilesetInteriorFloor_511
+  - first:
+      213: 6945905165592959905
+    second: TilesetInteriorFloor_512
+  - first:
+      213: 3245195036017493186
+    second: TilesetInteriorFloor_513
+  - first:
+      213: -1506252113127112086
+    second: TilesetInteriorFloor_514
+  - first:
+      213: 4547192939763898357
+    second: TilesetInteriorFloor_515
+  - first:
+      213: 5736779541646141142
+    second: TilesetInteriorFloor_516
+  - first:
+      213: 7545648026249263024
+    second: TilesetInteriorFloor_517
+  - first:
+      213: 2916312072713284213
+    second: TilesetInteriorFloor_518
+  - first:
+      213: 8387648283041342119
+    second: TilesetInteriorFloor_519
+  - first:
+      213: 5818691395665827003
+    second: TilesetInteriorFloor_520
+  - first:
+      213: -8215715512456723669
+    second: TilesetInteriorFloor_521
+  - first:
+      213: 7719596463994743735
+    second: TilesetInteriorFloor_522
+  - first:
+      213: 7012221005817669203
+    second: TilesetInteriorFloor_523
+  - first:
+      213: 4967755965122240864
+    second: TilesetInteriorFloor_524
+  - first:
+      213: 4779448217535164660
+    second: TilesetInteriorFloor_525
+  - first:
+      213: 7969436983926361961
+    second: TilesetInteriorFloor_526
+  - first:
+      213: 4408373913626742552
+    second: TilesetInteriorFloor_527
+  - first:
+      213: 2241093164922775313
+    second: TilesetInteriorFloor_528
+  - first:
+      213: -5951436872004792754
+    second: TilesetInteriorFloor_529
+  - first:
+      213: 5912859061963663212
+    second: TilesetInteriorFloor_530
+  - first:
+      213: -5568130802190861263
+    second: TilesetInteriorFloor_531
+  - first:
+      213: -4161788256233578571
+    second: TilesetInteriorFloor_532
+  - first:
+      213: -6769018963246221355
+    second: TilesetInteriorFloor_533
+  - first:
+      213: -8702794403433982874
+    second: TilesetInteriorFloor_534
+  - first:
+      213: -3592037086003217403
+    second: TilesetInteriorFloor_535
+  - first:
+      213: -3654264175026727382
+    second: TilesetInteriorFloor_536
+  - first:
+      213: -881916120597872973
+    second: TilesetInteriorFloor_537
+  - first:
+      213: 2572417059212006354
+    second: TilesetInteriorFloor_538
+  - first:
+      213: -276435449243065815
+    second: TilesetInteriorFloor_539
+  - first:
+      213: 2273502238008413574
+    second: TilesetInteriorFloor_540
+  - first:
+      213: -3061312873944468689
+    second: TilesetInteriorFloor_541
+  - first:
+      213: 3263354552006284745
+    second: TilesetInteriorFloor_542
+  - first:
+      213: -8634656649086915227
+    second: TilesetInteriorFloor_543
+  - first:
+      213: 5697613622532122487
+    second: TilesetInteriorFloor_544
+  - first:
+      213: -4412193796843024047
+    second: TilesetInteriorFloor_545
+  - first:
+      213: -1055202033171624240
+    second: TilesetInteriorFloor_546
+  - first:
+      213: 7426731542008377438
+    second: TilesetInteriorFloor_547
+  - first:
+      213: 5032372830742220277
+    second: TilesetInteriorFloor_548
+  - first:
+      213: 8638800476724186552
+    second: TilesetInteriorFloor_549
+  - first:
+      213: -8344123618251126283
+    second: TilesetInteriorFloor_550
+  - first:
+      213: -2951346412364334632
+    second: TilesetInteriorFloor_551
+  - first:
+      213: 4701426839483229857
+    second: TilesetInteriorFloor_552
+  - first:
+      213: -3154871038850741232
+    second: TilesetInteriorFloor_553
+  - first:
+      213: 1846994984306099167
+    second: TilesetInteriorFloor_554
+  - first:
+      213: 3379778672722972514
+    second: TilesetInteriorFloor_555
+  - first:
+      213: 1969900018873843249
+    second: TilesetInteriorFloor_556
+  - first:
+      213: -2041859079678396990
+    second: TilesetInteriorFloor_557
+  - first:
+      213: -8922186989920929081
+    second: TilesetInteriorFloor_558
+  - first:
+      213: -8368367842128817068
+    second: TilesetInteriorFloor_559
+  - first:
+      213: 6913754092483773673
+    second: TilesetInteriorFloor_560
+  - first:
+      213: -6642193811861593910
+    second: TilesetInteriorFloor_561
+  - first:
+      213: -4735168527222110605
+    second: TilesetInteriorFloor_562
+  - first:
+      213: -7118323821838602631
+    second: TilesetInteriorFloor_563
+  - first:
+      213: -4935826462192140302
+    second: TilesetInteriorFloor_564
+  - first:
+      213: 542804702301670918
+    second: TilesetInteriorFloor_565
+  - first:
+      213: -5577772495247097818
+    second: TilesetInteriorFloor_566
+  - first:
+      213: 8826236643226505676
+    second: TilesetInteriorFloor_567
+  - first:
+      213: -7537163584354552011
+    second: TilesetInteriorFloor_568
+  - first:
+      213: 6137315800741884619
+    second: TilesetInteriorFloor_569
+  - first:
+      213: -935221680827681548
+    second: TilesetInteriorFloor_570
+  - first:
+      213: 2891640442735991121
+    second: TilesetInteriorFloor_571
+  - first:
+      213: -7778709964794666721
+    second: TilesetInteriorFloor_572
+  - first:
+      213: 101205280437531976
+    second: TilesetInteriorFloor_573
+  - first:
+      213: -9076753266416024483
+    second: TilesetInteriorFloor_574
+  - first:
+      213: -7877148611156908837
+    second: TilesetInteriorFloor_575
+  - first:
+      213: -7066852232617304553
+    second: TilesetInteriorFloor_576
+  - first:
+      213: 6211451126649687678
+    second: TilesetInteriorFloor_577
+  - first:
+      213: 7389080390271378848
+    second: TilesetInteriorFloor_578
+  - first:
+      213: 5631189338655376659
+    second: TilesetInteriorFloor_579
+  - first:
+      213: 3225394794882302743
+    second: TilesetInteriorFloor_580
+  - first:
+      213: -2255308275694179710
+    second: TilesetInteriorFloor_581
+  - first:
+      213: 6517600799177986574
+    second: TilesetInteriorFloor_582
+  - first:
+      213: 1968893578405981658
+    second: TilesetInteriorFloor_583
+  - first:
+      213: -8052423463589972127
+    second: TilesetInteriorFloor_584
+  - first:
+      213: -4582926943547603198
+    second: TilesetInteriorFloor_585
+  - first:
+      213: -5108807574833417072
+    second: TilesetInteriorFloor_586
+  - first:
+      213: -6592198075403310377
+    second: TilesetInteriorFloor_587
+  - first:
+      213: 3544002262476717279
+    second: TilesetInteriorFloor_588
+  - first:
+      213: 3734183658359522033
+    second: TilesetInteriorFloor_589
+  - first:
+      213: -3156642361716886120
+    second: TilesetInteriorFloor_590
+  - first:
+      213: -4183725136704949178
+    second: TilesetInteriorFloor_591
+  - first:
+      213: -5932409076492215723
+    second: TilesetInteriorFloor_592
+  - first:
+      213: -9004261012812196860
+    second: TilesetInteriorFloor_593
+  - first:
+      213: 1824785696007981406
+    second: TilesetInteriorFloor_594
+  - first:
+      213: 5252686354084012885
+    second: TilesetInteriorFloor_595
+  - first:
+      213: 109381603803756183
+    second: TilesetInteriorFloor_596
+  - first:
+      213: -5549351210478380039
+    second: TilesetInteriorFloor_597
+  - first:
+      213: -505842067852224589
+    second: TilesetInteriorFloor_598
+  - first:
+      213: -922440026880263004
+    second: TilesetInteriorFloor_599
+  - first:
+      213: 7522365083479967927
+    second: TilesetInteriorFloor_600
+  - first:
+      213: -6366290877862387015
+    second: TilesetInteriorFloor_601
+  - first:
+      213: -3109591828579310461
+    second: TilesetInteriorFloor_602
+  - first:
+      213: -1226611268150899075
+    second: TilesetInteriorFloor_603
+  - first:
+      213: -3704606813690259752
+    second: TilesetInteriorFloor_604
+  - first:
+      213: 9073674144673205559
+    second: TilesetInteriorFloor_605
+  - first:
+      213: -1055677330459706635
+    second: TilesetInteriorFloor_606
+  - first:
+      213: 4020168068510991117
+    second: TilesetInteriorFloor_607
+  - first:
+      213: -7654007395480359210
+    second: TilesetInteriorFloor_608
+  - first:
+      213: -6809232903748479370
+    second: TilesetInteriorFloor_609
+  - first:
+      213: -158693776778026493
+    second: TilesetInteriorFloor_610
+  - first:
+      213: 6542546964619191269
+    second: TilesetInteriorFloor_611
+  - first:
+      213: 6588035643030104508
+    second: TilesetInteriorFloor_612
+  - first:
+      213: -2918509879110567113
+    second: TilesetInteriorFloor_613
+  - first:
+      213: 8911832002637099053
+    second: TilesetInteriorFloor_614
+  - first:
+      213: -7876429502201781843
+    second: TilesetInteriorFloor_615
+  - first:
+      213: -3981039208053419435
+    second: TilesetInteriorFloor_616
+  - first:
+      213: 8504287312727696452
+    second: TilesetInteriorFloor_617
+  - first:
+      213: -5437745554300882776
+    second: TilesetInteriorFloor_618
+  - first:
+      213: -165230678365658264
+    second: TilesetInteriorFloor_619
+  - first:
+      213: 836736811113887153
+    second: TilesetInteriorFloor_620
+  - first:
+      213: 2230502692814979877
+    second: TilesetInteriorFloor_621
+  - first:
+      213: -5353056469054843834
+    second: TilesetInteriorFloor_622
+  - first:
+      213: 2300333194482917935
+    second: TilesetInteriorFloor_623
+  - first:
+      213: 2892783657976926672
+    second: TilesetInteriorFloor_624
+  - first:
+      213: 6813077908166417249
+    second: TilesetInteriorFloor_625
+  - first:
+      213: -8387529845785910741
+    second: TilesetInteriorFloor_626
+  - first:
+      213: 5405511609753955593
+    second: TilesetInteriorFloor_627
+  - first:
+      213: -4514866961385403736
+    second: TilesetInteriorFloor_628
+  - first:
+      213: -5076038975364875634
+    second: TilesetInteriorFloor_629
+  - first:
+      213: -507102136350492601
+    second: TilesetInteriorFloor_630
+  - first:
+      213: -8168416354898314310
+    second: TilesetInteriorFloor_631
+  - first:
+      213: 6486494550372832517
+    second: TilesetInteriorFloor_632
+  - first:
+      213: 6972588597819256976
+    second: TilesetInteriorFloor_633
+  - first:
+      213: 5206208139975166696
+    second: TilesetInteriorFloor_634
+  - first:
+      213: -7181685379655974309
+    second: TilesetInteriorFloor_635
+  - first:
+      213: 6054142508644537927
+    second: TilesetInteriorFloor_636
+  - first:
+      213: -7363645245211183246
+    second: TilesetInteriorFloor_637
+  - first:
+      213: 7844166634393200056
+    second: TilesetInteriorFloor_638
+  - first:
+      213: 7631999059446444176
+    second: TilesetInteriorFloor_639
+  - first:
+      213: 933230107841500815
+    second: TilesetInteriorFloor_640
+  - first:
+      213: 7240233645896889007
+    second: TilesetInteriorFloor_641
+  - first:
+      213: -6832378484871681125
+    second: TilesetInteriorFloor_642
+  - first:
+      213: 7105444223467907748
+    second: TilesetInteriorFloor_643
+  - first:
+      213: -3467891888761765327
+    second: TilesetInteriorFloor_644
+  - first:
+      213: -1717713486888214365
+    second: TilesetInteriorFloor_645
+  - first:
+      213: -5887300181372530766
+    second: TilesetInteriorFloor_646
+  - first:
+      213: -7207419015160518503
+    second: TilesetInteriorFloor_647
+  - first:
+      213: 9199180698052784883
+    second: TilesetInteriorFloor_648
+  - first:
+      213: 6054705102664342176
+    second: TilesetInteriorFloor_649
+  - first:
+      213: -6582719142636518252
+    second: TilesetInteriorFloor_650
+  - first:
+      213: 3911104636162487335
+    second: TilesetInteriorFloor_651
+  - first:
+      213: -1139916648120897613
+    second: TilesetInteriorFloor_652
+  - first:
+      213: -8062142937078992960
+    second: TilesetInteriorFloor_653
+  - first:
+      213: 5490937806719469904
+    second: TilesetInteriorFloor_654
+  - first:
+      213: -855332517511471803
+    second: TilesetInteriorFloor_655
+  - first:
+      213: -7783059994531659101
+    second: TilesetInteriorFloor_656
+  - first:
+      213: -3928704273567432863
+    second: TilesetInteriorFloor_657
+  - first:
+      213: -3922192803870424705
+    second: TilesetInteriorFloor_658
+  - first:
+      213: -8715747298690687814
+    second: TilesetInteriorFloor_659
+  - first:
+      213: 7783563808310485338
+    second: TilesetInteriorFloor_660
+  - first:
+      213: -6557196417501292183
+    second: TilesetInteriorFloor_661
+  - first:
+      213: 5065311387296358092
+    second: TilesetInteriorFloor_662
+  - first:
+      213: -4767341473671967683
+    second: TilesetInteriorFloor_663
+  - first:
+      213: -3175688781545961006
+    second: TilesetInteriorFloor_664
+  - first:
+      213: 3069943624364511180
+    second: TilesetInteriorFloor_665
+  - first:
+      213: -5017741724735336182
+    second: TilesetInteriorFloor_666
+  - first:
+      213: 1578924520502994835
+    second: TilesetInteriorFloor_667
+  - first:
+      213: 1566202796237221062
+    second: TilesetInteriorFloor_668
+  - first:
+      213: -8955584307930037535
+    second: TilesetInteriorFloor_669
+  - first:
+      213: -1149385126576615173
+    second: TilesetInteriorFloor_670
+  - first:
+      213: 8355571704821181575
+    second: TilesetInteriorFloor_671
+  - first:
+      213: 248379623873592180
+    second: TilesetInteriorFloor_672
+  - first:
+      213: -104852414834238035
+    second: TilesetInteriorFloor_673
+  - first:
+      213: 3066461322944838170
+    second: TilesetInteriorFloor_674
+  - first:
+      213: 8726275586864508092
+    second: TilesetInteriorFloor_675
+  - first:
+      213: -47986824820984117
+    second: TilesetInteriorFloor_676
+  - first:
+      213: -4374707350911729066
+    second: TilesetInteriorFloor_677
+  - first:
+      213: -1760403085410324271
+    second: TilesetInteriorFloor_678
+  - first:
+      213: -7032706113887201200
+    second: TilesetInteriorFloor_679
+  - first:
+      213: -7153952428091980047
+    second: TilesetInteriorFloor_680
+  - first:
+      213: 7430291437422565711
+    second: TilesetInteriorFloor_681
+  - first:
+      213: 5759979354130963264
+    second: TilesetInteriorFloor_682
+  - first:
+      213: -8061333250118840208
+    second: TilesetInteriorFloor_683
+  - first:
+      213: 8943016509121293976
+    second: TilesetInteriorFloor_684
+  - first:
+      213: 7517960033168008764
+    second: TilesetInteriorFloor_685
+  - first:
+      213: 3924543329474192962
+    second: TilesetInteriorFloor_686
+  - first:
+      213: -2456267063325328656
+    second: TilesetInteriorFloor_687
+  - first:
+      213: 4148020721903731019
+    second: TilesetInteriorFloor_688
+  - first:
+      213: -2979907127487449002
+    second: TilesetInteriorFloor_689
+  - first:
+      213: -4360542710717459294
+    second: TilesetInteriorFloor_690
+  - first:
+      213: 337980303406726588
+    second: TilesetInteriorFloor_691
+  - first:
+      213: -5792785748952055060
+    second: TilesetInteriorFloor_692
+  - first:
+      213: -1695892312214928774
+    second: TilesetInteriorFloor_693
+  - first:
+      213: 8043598143351834188
+    second: TilesetInteriorFloor_694
+  - first:
+      213: 3649525676894753021
+    second: TilesetInteriorFloor_695
+  - first:
+      213: 7471997373131418742
+    second: TilesetInteriorFloor_696
+  - first:
+      213: -8719601084780464833
+    second: TilesetInteriorFloor_697
+  - first:
+      213: -3321157612821192306
+    second: TilesetInteriorFloor_698
+  - first:
+      213: -2990623100508248897
+    second: TilesetInteriorFloor_699
+  - first:
+      213: 4325908163151856031
+    second: TilesetInteriorFloor_700
+  - first:
+      213: 8487893991019082182
+    second: TilesetInteriorFloor_701
+  - first:
+      213: 7006309042504382818
+    second: TilesetInteriorFloor_702
+  - first:
+      213: -1978053451328113908
+    second: TilesetInteriorFloor_703
+  - first:
+      213: 8790578767753588370
+    second: TilesetInteriorFloor_704
+  - first:
+      213: -8145825683535592196
+    second: TilesetInteriorFloor_705
+  - first:
+      213: -8654876476697938944
+    second: TilesetInteriorFloor_706
+  - first:
+      213: 2650865509783057033
+    second: TilesetInteriorFloor_707
+  - first:
+      213: 1253274214179162380
+    second: TilesetInteriorFloor_708
+  - first:
+      213: 958237140965395095
+    second: TilesetInteriorFloor_709
+  - first:
+      213: -3747506159303895451
+    second: TilesetInteriorFloor_710
+  - first:
+      213: 8400386951574308856
+    second: TilesetInteriorFloor_711
+  - first:
+      213: -539771340812872595
+    second: TilesetInteriorFloor_712
+  - first:
+      213: -247159178765023961
+    second: TilesetInteriorFloor_713
+  - first:
+      213: 5892438216168234658
+    second: TilesetInteriorFloor_714
+  - first:
+      213: 2915591635391488065
+    second: TilesetInteriorFloor_715
+  - first:
+      213: -2080261423596137294
+    second: TilesetInteriorFloor_716
+  - first:
+      213: -5074692474573666939
+    second: TilesetInteriorFloor_717
+  - first:
+      213: -8953052168921329865
+    second: TilesetInteriorFloor_718
+  - first:
+      213: -534105337916676324
+    second: TilesetInteriorFloor_719
+  - first:
+      213: 8106486685525410075
+    second: TilesetInteriorFloor_720
+  - first:
+      213: 2480920699126891408
+    second: TilesetInteriorFloor_721
+  - first:
+      213: 6042705132944447450
+    second: TilesetInteriorFloor_722
+  - first:
+      213: 7555514044858386092
+    second: TilesetInteriorFloor_723
+  - first:
+      213: -6800184066346305869
+    second: TilesetInteriorFloor_724
+  - first:
+      213: -2935050994050757909
+    second: TilesetInteriorFloor_725
+  - first:
+      213: 1599942176005775013
+    second: TilesetInteriorFloor_726
+  - first:
+      213: 421271371065250980
+    second: TilesetInteriorFloor_727
+  - first:
+      213: -2585403001126652268
+    second: TilesetInteriorFloor_728
+  - first:
+      213: 4813882111868344545
+    second: TilesetInteriorFloor_729
+  - first:
+      213: 3475848165614711215
+    second: TilesetInteriorFloor_730
+  - first:
+      213: -2205345704142738238
+    second: TilesetInteriorFloor_731
+  - first:
+      213: -383491460790969995
+    second: TilesetInteriorFloor_732
+  - first:
+      213: 4342241102695050138
+    second: TilesetInteriorFloor_733
+  - first:
+      213: 6342317085258629614
+    second: TilesetInteriorFloor_734
+  - first:
+      213: 137442636882827831
+    second: TilesetInteriorFloor_735
+  - first:
+      213: 7517054871877865574
+    second: TilesetInteriorFloor_736
+  - first:
+      213: 7203312578583173211
+    second: TilesetInteriorFloor_737
+  - first:
+      213: 5461583414862645945
+    second: TilesetInteriorFloor_738
+  - first:
+      213: 8324537472711464646
+    second: TilesetInteriorFloor_739
+  - first:
+      213: -9082806530125523810
+    second: TilesetInteriorFloor_740
+  - first:
+      213: -6373490482965293806
+    second: TilesetInteriorFloor_741
+  - first:
+      213: 4789159167545775540
+    second: TilesetInteriorFloor_742
+  - first:
+      213: 631429552161476846
+    second: TilesetInteriorFloor_743
+  - first:
+      213: -777273676094620579
+    second: TilesetInteriorFloor_744
+  - first:
+      213: -82088548425154675
+    second: TilesetInteriorFloor_745
+  - first:
+      213: -372019395535253511
+    second: TilesetInteriorFloor_746
+  - first:
+      213: -3248993368937745270
+    second: TilesetInteriorFloor_747
+  - first:
+      213: -2540200886313188238
+    second: TilesetInteriorFloor_748
+  - first:
+      213: -6854928117162308098
+    second: TilesetInteriorFloor_749
+  - first:
+      213: 6791895020334605037
+    second: TilesetInteriorFloor_750
+  - first:
+      213: 4736326036217784752
+    second: TilesetInteriorFloor_751
+  - first:
+      213: 6469014882868701644
+    second: TilesetInteriorFloor_752
+  - first:
+      213: 5421838388253610806
+    second: TilesetInteriorFloor_753
+  - first:
+      213: 1402213007780036986
+    second: TilesetInteriorFloor_754
+  - first:
+      213: 5121644635370793354
+    second: TilesetInteriorFloor_755
+  - first:
+      213: -1742926407487025186
+    second: TilesetInteriorFloor_756
+  - first:
+      213: 9192483836534223025
+    second: TilesetInteriorFloor_757
+  - first:
+      213: 3416549095378330386
+    second: TilesetInteriorFloor_758
+  - first:
+      213: 4119216347451096385
+    second: TilesetInteriorFloor_759
+  - first:
+      213: 2845285141383478903
+    second: TilesetInteriorFloor_760
+  - first:
+      213: 2297889344629231690
+    second: TilesetInteriorFloor_761
+  - first:
+      213: 7838718559361331502
+    second: TilesetInteriorFloor_762
+  - first:
+      213: -1828748313320396778
+    second: TilesetInteriorFloor_763
+  - first:
+      213: -1730392880411235568
+    second: TilesetInteriorFloor_764
+  - first:
+      213: -8688297072493649127
+    second: TilesetInteriorFloor_765
+  - first:
+      213: -5727774621636380377
+    second: TilesetInteriorFloor_766
+  - first:
+      213: -698648187780221248
+    second: TilesetInteriorFloor_767
+  - first:
+      213: -3752712611332156954
+    second: TilesetInteriorFloor_768
+  - first:
+      213: -7385497801146002959
+    second: TilesetInteriorFloor_769
+  - first:
+      213: -6614933083188857820
+    second: TilesetInteriorFloor_770
+  - first:
+      213: 6040288194339142012
+    second: TilesetInteriorFloor_771
+  - first:
+      213: -1495164542387158558
+    second: TilesetInteriorFloor_772
+  - first:
+      213: -5390637294896111397
+    second: TilesetInteriorFloor_773
+  - first:
+      213: -3181195140751184348
+    second: TilesetInteriorFloor_774
+  - first:
+      213: -4827471392989640594
+    second: TilesetInteriorFloor_775
+  - first:
+      213: 3354668811866716735
+    second: TilesetInteriorFloor_776
+  - first:
+      213: 1522177176170797212
+    second: TilesetInteriorFloor_777
+  - first:
+      213: -4180566283068891726
+    second: TilesetInteriorFloor_778
+  - first:
+      213: -898338500327461195
+    second: TilesetInteriorFloor_779
+  - first:
+      213: 6421266784870449269
+    second: TilesetInteriorFloor_780
+  - first:
+      213: -616268899317765501
+    second: TilesetInteriorFloor_781
+  - first:
+      213: 4258928546719200531
+    second: TilesetInteriorFloor_782
+  - first:
+      213: 5535401006935657542
+    second: TilesetInteriorFloor_783
+  - first:
+      213: -8877184607124902033
+    second: TilesetInteriorFloor_784
+  - first:
+      213: 123366650244961579
+    second: TilesetInteriorFloor_785
+  - first:
+      213: 1263612897805078186
+    second: TilesetInteriorFloor_786
+  - first:
+      213: -3084553346942490728
+    second: TilesetInteriorFloor_787
+  - first:
+      213: -3418608236144536831
+    second: TilesetInteriorFloor_788
+  - first:
+      213: -5137996311670007821
+    second: TilesetInteriorFloor_789
+  - first:
+      213: 3147110656679256834
+    second: TilesetInteriorFloor_790
+  - first:
+      213: 799639119419348839
+    second: TilesetInteriorFloor_791
+  - first:
+      213: -593042801950161177
+    second: TilesetInteriorFloor_792
+  - first:
+      213: -2529524651670800933
+    second: TilesetInteriorFloor_793
+  - first:
+      213: -5544299535477102639
+    second: TilesetInteriorFloor_794
+  - first:
+      213: 158078396497810371
+    second: TilesetInteriorFloor_795
+  - first:
+      213: 5013882105551480829
+    second: TilesetInteriorFloor_796
+  - first:
+      213: -1005868089586529808
+    second: TilesetInteriorFloor_797
+  - first:
+      213: -3935010342820554039
+    second: TilesetInteriorFloor_798
+  - first:
+      213: -8705164004648001680
+    second: TilesetInteriorFloor_799
+  - first:
+      213: -2057999670365356545
+    second: TilesetInteriorFloor_800
+  - first:
+      213: 7035077051854673212
+    second: TilesetInteriorFloor_801
+  - first:
+      213: 8488483158940091359
+    second: TilesetInteriorFloor_802
+  - first:
+      213: -7505046765408495795
+    second: TilesetInteriorFloor_803
+  - first:
+      213: 8338942840094836863
+    second: TilesetInteriorFloor_804
+  - first:
+      213: -3703471632841562052
+    second: TilesetInteriorFloor_805
+  - first:
+      213: -1983541040838980254
+    second: TilesetInteriorFloor_806
+  - first:
+      213: -4002231719210605898
+    second: TilesetInteriorFloor_807
+  - first:
+      213: 6219858624966555033
+    second: TilesetInteriorFloor_808
+  - first:
+      213: -3992339075175607379
+    second: TilesetInteriorFloor_809
+  - first:
+      213: -8121724993410998527
+    second: TilesetInteriorFloor_810
+  - first:
+      213: -5789932731170156533
+    second: TilesetInteriorFloor_811
+  - first:
+      213: 2755330597070873232
+    second: TilesetInteriorFloor_812
+  - first:
+      213: -158882821981552669
+    second: TilesetInteriorFloor_813
+  - first:
+      213: -4263142065460102531
+    second: TilesetInteriorFloor_814
+  - first:
+      213: -8460359273910909746
+    second: TilesetInteriorFloor_815
+  - first:
+      213: 5143856609683270391
+    second: TilesetInteriorFloor_816
+  - first:
+      213: -8618808210903307895
+    second: TilesetInteriorFloor_817
+  - first:
+      213: 4480426441068164746
+    second: TilesetInteriorFloor_818
+  - first:
+      213: -876533152335915977
+    second: TilesetInteriorFloor_819
+  - first:
+      213: 885179628559566106
+    second: TilesetInteriorFloor_820
+  - first:
+      213: 9100037687699531444
+    second: TilesetInteriorFloor_821
+  - first:
+      213: 2139385172111952910
+    second: TilesetInteriorFloor_822
+  - first:
+      213: -8577841745543260378
+    second: TilesetInteriorFloor_823
+  - first:
+      213: -7726936639164375927
+    second: TilesetInteriorFloor_824
+  - first:
+      213: -4563364680964762369
+    second: TilesetInteriorFloor_825
+  - first:
+      213: 5245076700557907038
+    second: TilesetInteriorFloor_826
+  - first:
+      213: -317301954226452082
+    second: TilesetInteriorFloor_827
+  - first:
+      213: -2358902064337732991
+    second: TilesetInteriorFloor_828
+  - first:
+      213: -4659830300989192950
+    second: TilesetInteriorFloor_829
+  - first:
+      213: 3675497724522107312
+    second: TilesetInteriorFloor_830
+  - first:
+      213: -2582130226181362144
+    second: TilesetInteriorFloor_831
+  - first:
+      213: 1077140603325983133
+    second: TilesetInteriorFloor_832
+  - first:
+      213: -6953508707135273549
+    second: TilesetInteriorFloor_833
+  - first:
+      213: -5756851530634741456
+    second: TilesetInteriorFloor_834
+  - first:
+      213: 2925007901878820210
+    second: TilesetInteriorFloor_835
+  - first:
+      213: -6255828802115865316
+    second: TilesetInteriorFloor_836
+  - first:
+      213: 8993697372594388895
+    second: TilesetInteriorFloor_837
+  - first:
+      213: 6807892196394922199
+    second: TilesetInteriorFloor_838
+  - first:
+      213: 8623447832221635976
+    second: TilesetInteriorFloor_839
+  - first:
+      213: 4908793345747017435
+    second: TilesetInteriorFloor_840
+  - first:
+      213: 1932583873307829716
+    second: TilesetInteriorFloor_841
+  - first:
+      213: 6823667390471440097
+    second: TilesetInteriorFloor_842
+  - first:
+      213: -4188543339012393587
+    second: TilesetInteriorFloor_843
+  - first:
+      213: -8806967021157190927
+    second: TilesetInteriorFloor_844
+  - first:
+      213: 4064115733107574442
+    second: TilesetInteriorFloor_845
+  - first:
+      213: -4843769272747396892
+    second: TilesetInteriorFloor_846
+  - first:
+      213: -279844524015183622
+    second: TilesetInteriorFloor_847
+  - first:
+      213: 4674431848970224691
+    second: TilesetInteriorFloor_848
+  - first:
+      213: 4146139153368672273
+    second: TilesetInteriorFloor_849
+  - first:
+      213: 7195603021508305125
+    second: TilesetInteriorFloor_850
+  - first:
+      213: 4313213477972180981
+    second: TilesetInteriorFloor_851
+  - first:
+      213: -4615286530118298910
+    second: TilesetInteriorFloor_852
+  - first:
+      213: -3750734618166212939
+    second: TilesetInteriorFloor_853
+  - first:
+      213: 6712668729749571738
+    second: TilesetInteriorFloor_854
+  - first:
+      213: -6360980916175677005
+    second: TilesetInteriorFloor_855
+  - first:
+      213: 390627197253098056
+    second: TilesetInteriorFloor_856
+  - first:
+      213: 803783315143002791
+    second: TilesetInteriorFloor_857
+  - first:
+      213: -6742421786630820353
+    second: TilesetInteriorFloor_858
+  - first:
+      213: 494867718147494777
+    second: TilesetInteriorFloor_859
+  - first:
+      213: 3416167411152065348
+    second: TilesetInteriorFloor_860
+  - first:
+      213: 267970052531538402
+    second: TilesetInteriorFloor_861
+  - first:
+      213: -1482049422392957400
+    second: TilesetInteriorFloor_862
+  - first:
+      213: -1971507357846172809
+    second: TilesetInteriorFloor_863
+  - first:
+      213: -4087461559706791469
+    second: TilesetInteriorFloor_864
+  - first:
+      213: -4392709211903672664
+    second: TilesetInteriorFloor_865
+  - first:
+      213: -7336575788188826047
+    second: TilesetInteriorFloor_866
+  - first:
+      213: 3670658924589401916
+    second: TilesetInteriorFloor_867
+  - first:
+      213: 8588345949682615305
+    second: TilesetInteriorFloor_868
+  - first:
+      213: 5046221399714104895
+    second: TilesetInteriorFloor_869
+  - first:
+      213: 3319869339899759897
+    second: TilesetInteriorFloor_870
+  - first:
+      213: -2758887874388994495
+    second: TilesetInteriorFloor_871
+  - first:
+      213: -5019818674694679105
+    second: TilesetInteriorFloor_872
+  - first:
+      213: 8224849359011997732
+    second: TilesetInteriorFloor_873
+  - first:
+      213: 2793109335541133239
+    second: TilesetInteriorFloor_874
+  - first:
+      213: -8116513177370810160
+    second: TilesetInteriorFloor_875
+  - first:
+      213: -3603003883445421194
+    second: TilesetInteriorFloor_876
+  - first:
+      213: -4144249800121780802
+    second: TilesetInteriorFloor_877
+  - first:
+      213: 3278678831277497480
+    second: TilesetInteriorFloor_878
+  - first:
+      213: -443367709638938366
+    second: TilesetInteriorFloor_879
+  - first:
+      213: -2677887475491578856
+    second: TilesetInteriorFloor_880
+  - first:
+      213: 4092413915450168436
+    second: TilesetInteriorFloor_881
+  - first:
+      213: 4147818647583464567
+    second: TilesetInteriorFloor_882
+  - first:
+      213: -418315337355376757
+    second: TilesetInteriorFloor_883
+  - first:
+      213: -4227236192536960252
+    second: TilesetInteriorFloor_884
+  - first:
+      213: 496325237221479702
+    second: TilesetInteriorFloor_885
+  - first:
+      213: -1453740612197198650
+    second: TilesetInteriorFloor_886
+  - first:
+      213: -176982573470068666
+    second: TilesetInteriorFloor_887
+  - first:
+      213: -7290295478425901031
+    second: TilesetInteriorFloor_888
+  - first:
+      213: -4570822041868207989
+    second: TilesetInteriorFloor_889
+  - first:
+      213: -702399422146649539
+    second: TilesetInteriorFloor_890
+  - first:
+      213: 4067320373719454277
+    second: TilesetInteriorFloor_891
+  - first:
+      213: -326892738838427326
+    second: TilesetInteriorFloor_892
+  - first:
+      213: -2325244114616027904
+    second: TilesetInteriorFloor_893
+  - first:
+      213: -6456339436472612585
+    second: TilesetInteriorFloor_894
+  - first:
+      213: 2928592132435893532
+    second: TilesetInteriorFloor_895
+  - first:
+      213: -557927844424717341
+    second: TilesetInteriorFloor_896
+  - first:
+      213: -1192760259853190177
+    second: TilesetInteriorFloor_897
+  - first:
+      213: 1130682111964851705
+    second: TilesetInteriorFloor_898
+  - first:
+      213: -7289846850697136139
+    second: TilesetInteriorFloor_899
+  - first:
+      213: 40411383516520248
+    second: TilesetInteriorFloor_900
+  - first:
+      213: -3161540973553177116
+    second: TilesetInteriorFloor_901
+  - first:
+      213: 3298129746121320999
+    second: TilesetInteriorFloor_902
+  - first:
+      213: 6852696618012293018
+    second: TilesetInteriorFloor_903
+  - first:
+      213: 6895167571550798309
+    second: TilesetInteriorFloor_904
+  - first:
+      213: 4470795880688779961
+    second: TilesetInteriorFloor_905
+  - first:
+      213: 7313151892880866652
+    second: TilesetInteriorFloor_906
+  - first:
+      213: -6815067713962804843
+    second: TilesetInteriorFloor_907
+  - first:
+      213: 6425735298773861685
+    second: TilesetInteriorFloor_908
+  - first:
+      213: -1567078232915722755
+    second: TilesetInteriorFloor_909
+  - first:
+      213: 2673920982289629951
+    second: TilesetInteriorFloor_910
+  - first:
+      213: -5668638283171792679
+    second: TilesetInteriorFloor_911
+  - first:
+      213: 5762454369620168451
+    second: TilesetInteriorFloor_912
+  - first:
+      213: 758396791855612745
+    second: TilesetInteriorFloor_913
+  - first:
+      213: 3941588979030451164
+    second: TilesetInteriorFloor_914
+  - first:
+      213: -2327785678366867646
+    second: TilesetInteriorFloor_915
+  - first:
+      213: -2273214088503410569
+    second: TilesetInteriorFloor_916
+  - first:
+      213: 5956722879104507915
+    second: TilesetInteriorFloor_917
+  - first:
+      213: -8163236256843732722
+    second: TilesetInteriorFloor_918
+  - first:
+      213: -6742414861682493016
+    second: TilesetInteriorFloor_919
+  - first:
+      213: -5809502965943803112
+    second: TilesetInteriorFloor_920
+  - first:
+      213: -8990730587844143381
+    second: TilesetInteriorFloor_921
+  - first:
+      213: -1415649653385482707
+    second: TilesetInteriorFloor_922
+  - first:
+      213: -3659712480798108082
+    second: TilesetInteriorFloor_923
+  - first:
+      213: 8267443422744130030
+    second: TilesetInteriorFloor_924
+  - first:
+      213: -4278467578615262108
+    second: TilesetInteriorFloor_925
+  - first:
+      213: -305531708037309858
+    second: TilesetInteriorFloor_926
+  - first:
+      213: -8822790974873949661
+    second: TilesetInteriorFloor_927
+  - first:
+      213: -9012733183584743383
+    second: TilesetInteriorFloor_928
+  - first:
+      213: -1377517819835723722
+    second: TilesetInteriorFloor_929
+  - first:
+      213: -4512011603747650433
+    second: TilesetInteriorFloor_930
+  - first:
+      213: -560116801734227464
+    second: TilesetInteriorFloor_931
+  - first:
+      213: -2229112284925907788
+    second: TilesetInteriorFloor_932
+  - first:
+      213: -7330938053034067090
+    second: TilesetInteriorFloor_933
+  - first:
+      213: 1375727752413030854
+    second: TilesetInteriorFloor_934
+  - first:
+      213: 4735249398295527017
+    second: TilesetInteriorFloor_935
+  - first:
+      213: -4694511355711041225
+    second: TilesetInteriorFloor_936
+  - first:
+      213: 8889862702822020699
+    second: TilesetInteriorFloor_937
+  - first:
+      213: -8119921914471083152
+    second: TilesetInteriorFloor_938
+  - first:
+      213: -8314877122302503720
+    second: TilesetInteriorFloor_939
+  - first:
+      213: -7809843947852314500
+    second: TilesetInteriorFloor_940
+  - first:
+      213: 1147093917037402919
+    second: TilesetInteriorFloor_941
+  - first:
+      213: -2496857325967596340
+    second: TilesetInteriorFloor_942
+  - first:
+      213: 7283733065021115736
+    second: TilesetInteriorFloor_943
+  - first:
+      213: -2479521874601044298
+    second: TilesetInteriorFloor_944
+  - first:
+      213: -955581627276744445
+    second: TilesetInteriorFloor_945
+  - first:
+      213: -8747725036069352994
+    second: TilesetInteriorFloor_946
+  - first:
+      213: 8875825735715732391
+    second: TilesetInteriorFloor_947
+  - first:
+      213: 7950910073291431061
+    second: TilesetInteriorFloor_948
+  - first:
+      213: 1221267553834343926
+    second: TilesetInteriorFloor_949
+  - first:
+      213: 1703957252105836209
+    second: TilesetInteriorFloor_950
+  - first:
+      213: 1096137231672851723
+    second: TilesetInteriorFloor_951
+  - first:
+      213: -4222669293611110011
+    second: TilesetInteriorFloor_952
+  - first:
+      213: 1880452679408293561
+    second: TilesetInteriorFloor_953
+  - first:
+      213: 5208335120704071334
+    second: TilesetInteriorFloor_954
+  - first:
+      213: 2682690335933670249
+    second: TilesetInteriorFloor_955
+  - first:
+      213: -1293146319279561407
+    second: TilesetInteriorFloor_956
+  - first:
+      213: -8803311506001591253
+    second: TilesetInteriorFloor_957
+  - first:
+      213: 530377404392350120
+    second: TilesetInteriorFloor_958
+  - first:
+      213: 172443510912441002
+    second: TilesetInteriorFloor_959
+  - first:
+      213: 3666507360169272638
+    second: TilesetInteriorFloor_960
+  - first:
+      213: -3934992137091174737
+    second: TilesetInteriorFloor_961
+  - first:
+      213: -4326135756879599236
+    second: TilesetInteriorFloor_962
+  - first:
+      213: -374910565031239315
+    second: TilesetInteriorFloor_963
+  - first:
+      213: -3511292634379845696
+    second: TilesetInteriorFloor_964
+  - first:
+      213: -6904333924464546898
+    second: TilesetInteriorFloor_965
+  - first:
+      213: -3362437311658444395
+    second: TilesetInteriorFloor_966
+  - first:
+      213: -902441283244868888
+    second: TilesetInteriorFloor_967
+  - first:
+      213: 1372319946514817005
+    second: TilesetInteriorFloor_968
+  - first:
+      213: -8951827016863362700
+    second: TilesetInteriorFloor_969
+  - first:
+      213: 8526807924111421336
+    second: TilesetInteriorFloor_970
+  - first:
+      213: 375065031191076907
+    second: TilesetInteriorFloor_971
+  - first:
+      213: -4243511988830571857
+    second: TilesetInteriorFloor_972
+  - first:
+      213: 3154630522603058321
+    second: TilesetInteriorFloor_973
+  - first:
+      213: 8106822785350070315
+    second: TilesetInteriorFloor_974
+  - first:
+      213: 6468635918979357982
+    second: TilesetInteriorFloor_975
+  - first:
+      213: 619871854866611033
+    second: TilesetInteriorFloor_976
+  - first:
+      213: -7544341888541443407
+    second: TilesetInteriorFloor_977
+  - first:
+      213: 3112283927271631560
+    second: TilesetInteriorFloor_978
+  - first:
+      213: 8254499905211480034
+    second: TilesetInteriorFloor_979
+  - first:
+      213: 8563255756884563696
+    second: TilesetInteriorFloor_980
+  - first:
+      213: -6801406201299833240
+    second: TilesetInteriorFloor_981
+  - first:
+      213: -212312305004114095
+    second: TilesetInteriorFloor_982
+  - first:
+      213: 42498835273514504
+    second: TilesetInteriorFloor_983
+  - first:
+      213: 3585060658164079115
+    second: TilesetInteriorFloor_984
+  - first:
+      213: 3543641518024006077
+    second: TilesetInteriorFloor_985
+  - first:
+      213: -5099133785206090915
+    second: TilesetInteriorFloor_986
+  - first:
+      213: -1684002142741844898
+    second: TilesetInteriorFloor_987
+  - first:
+      213: 4129541791463306809
+    second: TilesetInteriorFloor_988
+  - first:
+      213: -2861989657615384737
+    second: TilesetInteriorFloor_989
+  - first:
+      213: 6872062754334024313
+    second: TilesetInteriorFloor_990
+  - first:
+      213: -7759884640725903659
+    second: TilesetInteriorFloor_991
+  - first:
+      213: 6283142806351035450
+    second: TilesetInteriorFloor_992
+  - first:
+      213: -7246113717360283414
+    second: TilesetInteriorFloor_993
+  - first:
+      213: -7361970133726533468
+    second: TilesetInteriorFloor_994
+  - first:
+      213: 6959983801704072800
+    second: TilesetInteriorFloor_995
+  - first:
+      213: 4136232604123004014
+    second: TilesetInteriorFloor_996
+  - first:
+      213: 2921440711550923218
+    second: TilesetInteriorFloor_997
+  - first:
+      213: 4542451314437289001
+    second: TilesetInteriorFloor_998
+  - first:
+      213: -5871498803470231972
+    second: TilesetInteriorFloor_999
+  - first:
+      213: 147326397561474768
+    second: TilesetInteriorFloor_1000
+  - first:
+      213: 3527825673600015372
+    second: TilesetInteriorFloor_1001
+  - first:
+      213: -7962785346723068713
+    second: TilesetInteriorFloor_1002
+  - first:
+      213: 7897719095306514427
+    second: TilesetInteriorFloor_1003
+  - first:
+      213: 3645171759417183947
+    second: TilesetInteriorFloor_1004
+  - first:
+      213: -4985640972534101446
+    second: TilesetInteriorFloor_1005
+  - first:
+      213: 1219688722689997478
+    second: TilesetInteriorFloor_1006
+  - first:
+      213: 299229266799078403
+    second: TilesetInteriorFloor_1007
+  - first:
+      213: 5099018099328203664
+    second: TilesetInteriorFloor_1008
+  - first:
+      213: -4029449405023989032
+    second: TilesetInteriorFloor_1009
+  - first:
+      213: 2017917096907874373
+    second: TilesetInteriorFloor_1010
+  - first:
+      213: -6727640587237024060
+    second: TilesetInteriorFloor_1011
+  - first:
+      213: -4116867184427008523
+    second: TilesetInteriorFloor_1012
+  - first:
+      213: 2345064587081109731
+    second: TilesetInteriorFloor_1013
+  - first:
+      213: -1862187352791101593
+    second: TilesetInteriorFloor_1014
+  - first:
+      213: -6011907595205177820
+    second: TilesetInteriorFloor_1015
+  - first:
+      213: -3237400428833475539
+    second: TilesetInteriorFloor_1016
+  - first:
+      213: 6370814587892770562
+    second: TilesetInteriorFloor_1017
+  - first:
+      213: 3268180073778765357
+    second: TilesetInteriorFloor_1018
+  - first:
+      213: 7718014407996301872
+    second: TilesetInteriorFloor_1019
+  - first:
+      213: -2461385135889285345
+    second: TilesetInteriorFloor_1020
+  - first:
+      213: 6225084780513172408
+    second: TilesetInteriorFloor_1021
+  - first:
+      213: 623742485822184425
+    second: TilesetInteriorFloor_1022
+  - first:
+      213: -8604188399119779627
+    second: TilesetInteriorFloor_1023
+  - first:
+      213: 5307182071387621657
+    second: TilesetInteriorFloor_1024
+  - first:
+      213: -2728987362127471797
+    second: TilesetInteriorFloor_1025
+  - first:
+      213: 6631344343315445224
+    second: TilesetInteriorFloor_1026
+  - first:
+      213: 4624129156543921673
+    second: TilesetInteriorFloor_1027
+  - first:
+      213: -6983226605912795138
+    second: TilesetInteriorFloor_1028
+  - first:
+      213: 7615300581586457267
+    second: TilesetInteriorFloor_1029
+  - first:
+      213: -8570977104440096279
+    second: TilesetInteriorFloor_1030
+  - first:
+      213: -7061540016456570220
+    second: TilesetInteriorFloor_1031
+  - first:
+      213: 4636939811099995827
+    second: TilesetInteriorFloor_1032
+  - first:
+      213: -3963599987074154186
+    second: TilesetInteriorFloor_1033
+  - first:
+      213: -3925597854176789732
+    second: TilesetInteriorFloor_1034
+  - first:
+      213: -6245003116046853458
+    second: TilesetInteriorFloor_1035
+  - first:
+      213: 4397685492221129944
+    second: TilesetInteriorFloor_1036
+  - first:
+      213: 1981432524799430543
+    second: TilesetInteriorFloor_1037
+  - first:
+      213: -8533691877455629980
+    second: TilesetInteriorFloor_1038
+  - first:
+      213: -3090043664161335445
+    second: TilesetInteriorFloor_1039
+  - first:
+      213: 7231221293537018310
+    second: TilesetInteriorFloor_1040
+  - first:
+      213: 3887442079943104941
+    second: TilesetInteriorFloor_1041
+  - first:
+      213: -7024832690521864543
+    second: TilesetInteriorFloor_1042
+  - first:
+      213: -6466344449502529613
+    second: TilesetInteriorFloor_1043
+  - first:
+      213: -6563056660062362446
+    second: TilesetInteriorFloor_1044
+  - first:
+      213: -6465584765125192986
+    second: TilesetInteriorFloor_1045
+  - first:
+      213: -5276545045353933454
+    second: TilesetInteriorFloor_1046
+  - first:
+      213: -645673501630745998
+    second: TilesetInteriorFloor_1047
+  - first:
+      213: -1114716844963130237
+    second: TilesetInteriorFloor_1048
+  - first:
+      213: -7820639578241439498
+    second: TilesetInteriorFloor_1049
+  - first:
+      213: -7515428125775477837
+    second: TilesetInteriorFloor_1050
+  - first:
+      213: -4887543200979124474
+    second: TilesetInteriorFloor_1051
+  - first:
+      213: -272382322871190310
+    second: TilesetInteriorFloor_1052
+  - first:
+      213: -8211135941265491183
+    second: TilesetInteriorFloor_1053
+  - first:
+      213: -7240316347253989249
+    second: TilesetInteriorFloor_1054
+  - first:
+      213: -412017392457871560
+    second: TilesetInteriorFloor_1055
+  - first:
+      213: -1663332037850504297
+    second: TilesetInteriorFloor_1056
+  - first:
+      213: 159219479903563172
+    second: TilesetInteriorFloor_1057
+  - first:
+      213: -9122446915231318295
+    second: TilesetInteriorFloor_1058
+  - first:
+      213: 2100066959507983643
+    second: TilesetInteriorFloor_1059
+  - first:
+      213: -480367611413963671
+    second: TilesetInteriorFloor_1060
+  - first:
+      213: 1934155835914994839
+    second: TilesetInteriorFloor_1061
+  - first:
+      213: 2635099992294650641
+    second: TilesetInteriorFloor_1062
+  - first:
+      213: -3723191271497585657
+    second: TilesetInteriorFloor_1063
+  - first:
+      213: 247867277184689508
+    second: TilesetInteriorFloor_1064
+  - first:
+      213: -6521291964760921490
+    second: TilesetInteriorFloor_1065
+  - first:
+      213: 1724918155339600821
+    second: TilesetInteriorFloor_1066
+  - first:
+      213: -4182033537174487995
+    second: TilesetInteriorFloor_1067
+  - first:
+      213: 6043665899067558995
+    second: TilesetInteriorFloor_1068
+  - first:
+      213: -5935558115937483425
+    second: TilesetInteriorFloor_1069
+  - first:
+      213: -4239089555869513227
+    second: TilesetInteriorFloor_1070
+  - first:
+      213: -8117908870205266938
+    second: TilesetInteriorFloor_1071
+  - first:
+      213: 4639979577753961545
+    second: TilesetInteriorFloor_1072
+  - first:
+      213: 6074757563165619602
+    second: TilesetInteriorFloor_1073
+  - first:
+      213: 4061801843213572378
+    second: TilesetInteriorFloor_1074
+  - first:
+      213: 2732456209619889216
+    second: TilesetInteriorFloor_1075
+  - first:
+      213: -7526916413678727789
+    second: TilesetInteriorFloor_1076
+  - first:
+      213: -2334480442035540231
+    second: TilesetInteriorFloor_1077
+  - first:
+      213: -5605180904991712566
+    second: TilesetInteriorFloor_1078
+  - first:
+      213: 753553735935270054
+    second: TilesetInteriorFloor_1079
+  - first:
+      213: -3253638945289713368
+    second: TilesetInteriorFloor_1080
+  - first:
+      213: -9161535569047679787
+    second: TilesetInteriorFloor_1081
+  - first:
+      213: 8115972060713670429
+    second: TilesetInteriorFloor_1082
+  - first:
+      213: -7064635848830284153
+    second: TilesetInteriorFloor_1083
+  - first:
+      213: 8034195358173235343
+    second: TilesetInteriorFloor_1084
+  - first:
+      213: -1658821158548933948
+    second: TilesetInteriorFloor_1085
+  - first:
+      213: -8996416152835545285
+    second: TilesetInteriorFloor_1086
+  - first:
+      213: -960557622140340748
+    second: TilesetInteriorFloor_1087
+  - first:
+      213: -2483364958048068795
+    second: TilesetInteriorFloor_1088
+  - first:
+      213: 7805834433224903907
+    second: TilesetInteriorFloor_1089
+  - first:
+      213: -5747861684085532487
+    second: TilesetInteriorFloor_1090
+  - first:
+      213: 874855971670380278
+    second: TilesetInteriorFloor_1091
+  - first:
+      213: -8594550203400667700
+    second: TilesetInteriorFloor_1092
+  - first:
+      213: 4540019778503686102
+    second: TilesetInteriorFloor_1093
+  - first:
+      213: -3001758069363101502
+    second: TilesetInteriorFloor_1094
+  - first:
+      213: 5834909729154266554
+    second: TilesetInteriorFloor_1095
+  - first:
+      213: 3876790256124256040
+    second: TilesetInteriorFloor_1096
+  - first:
+      213: 8336728058812292570
+    second: TilesetInteriorFloor_1097
+  - first:
+      213: -8495185215120497697
+    second: TilesetInteriorFloor_1098
+  - first:
+      213: 6193806440455980274
+    second: TilesetInteriorFloor_1099
+  - first:
+      213: -5699281926238946931
+    second: TilesetInteriorFloor_1100
+  - first:
+      213: 2557654863683610226
+    second: TilesetInteriorFloor_1101
+  - first:
+      213: 4233879214415615146
+    second: TilesetInteriorFloor_1102
+  - first:
+      213: -4532556717548577688
+    second: TilesetInteriorFloor_1103
+  - first:
+      213: 7032977913546310127
+    second: TilesetInteriorFloor_1104
+  - first:
+      213: -6868964286137311859
+    second: TilesetInteriorFloor_1105
+  - first:
+      213: -3395917797239139381
+    second: TilesetInteriorFloor_1106
+  - first:
+      213: 5053780897372517755
+    second: TilesetInteriorFloor_1107
+  - first:
+      213: -1311592729126371677
+    second: TilesetInteriorFloor_1108
+  - first:
+      213: 7427217273693717497
+    second: TilesetInteriorFloor_1109
+  - first:
+      213: -6677023040883210003
+    second: TilesetInteriorFloor_1110
+  - first:
+      213: -513255494735762461
+    second: TilesetInteriorFloor_1111
+  - first:
+      213: -6472742864760120019
+    second: TilesetInteriorFloor_1112
+  - first:
+      213: -1037589675640481543
+    second: TilesetInteriorFloor_1113
+  - first:
+      213: 8834425791757802595
+    second: TilesetInteriorFloor_1114
+  - first:
+      213: 6537772366314435711
+    second: TilesetInteriorFloor_1115
+  - first:
+      213: 1008885003956021562
+    second: TilesetInteriorFloor_1116
+  - first:
+      213: 8120188161385832013
+    second: TilesetInteriorFloor_1117
+  - first:
+      213: -1915265500324996069
+    second: TilesetInteriorFloor_1118
+  - first:
+      213: 1546925363817942603
+    second: TilesetInteriorFloor_1119
+  - first:
+      213: -3498223275533882942
+    second: TilesetInteriorFloor_1120
+  - first:
+      213: -2031886488807271978
+    second: TilesetInteriorFloor_1121
+  - first:
+      213: 1346351344182398803
+    second: TilesetInteriorFloor_1122
+  - first:
+      213: 9005803141707296099
+    second: TilesetInteriorFloor_1123
+  - first:
+      213: -96787830262258821
+    second: TilesetInteriorFloor_1124
+  - first:
+      213: -6744787486676453493
+    second: TilesetInteriorFloor_1125
+  - first:
+      213: -2877723954982674346
+    second: TilesetInteriorFloor_1126
+  - first:
+      213: -4302146459142845882
+    second: TilesetInteriorFloor_1127
+  - first:
+      213: 3410821841111563663
+    second: TilesetInteriorFloor_1128
+  - first:
+      213: 5591153700402023472
+    second: TilesetInteriorFloor_1129
+  - first:
+      213: -6531618599476620140
+    second: TilesetInteriorFloor_1130
+  - first:
+      213: -5555707300518313176
+    second: TilesetInteriorFloor_1131
+  - first:
+      213: 4285951235822898491
+    second: TilesetInteriorFloor_1132
+  - first:
+      213: -7917293387846128451
+    second: TilesetInteriorFloor_1133
+  - first:
+      213: 6396165919762006784
+    second: TilesetInteriorFloor_1134
+  - first:
+      213: 2040369163401192403
+    second: TilesetInteriorFloor_1135
+  - first:
+      213: -8923129279158791768
+    second: TilesetInteriorFloor_1136
+  - first:
+      213: -3432039597534906988
+    second: TilesetInteriorFloor_1137
+  - first:
+      213: 2160711256748498679
+    second: TilesetInteriorFloor_1138
+  - first:
+      213: 3397089118640473937
+    second: TilesetInteriorFloor_1139
+  - first:
+      213: 8719303015728539941
+    second: TilesetInteriorFloor_1140
+  - first:
+      213: -6594950057617204455
+    second: TilesetInteriorFloor_1141
+  - first:
+      213: 5178925748018799977
+    second: TilesetInteriorFloor_1142
+  - first:
+      213: 1147229420754586664
+    second: TilesetInteriorFloor_1143
+  - first:
+      213: -451188403332583763
+    second: TilesetInteriorFloor_1144
+  - first:
+      213: 776352085657944225
+    second: TilesetInteriorFloor_1145
+  - first:
+      213: -5779602242011798247
+    second: TilesetInteriorFloor_1146
+  - first:
+      213: -1955121967035090557
+    second: TilesetInteriorFloor_1147
+  - first:
+      213: -4879712318401555382
+    second: TilesetInteriorFloor_1148
+  - first:
+      213: -3939917392993777626
+    second: TilesetInteriorFloor_1149
+  - first:
+      213: 8814930268054265339
+    second: TilesetInteriorFloor_1150
+  - first:
+      213: -3903529082145380066
+    second: TilesetInteriorFloor_1151
+  - first:
+      213: 6959916060659754935
+    second: TilesetInteriorFloor_1152
+  - first:
+      213: 175121675653282868
+    second: TilesetInteriorFloor_1153
+  - first:
+      213: 5274754499921635171
+    second: TilesetInteriorFloor_1154
+  - first:
+      213: -5989615847301094668
+    second: TilesetInteriorFloor_1155
+  - first:
+      213: -7912320667191635317
+    second: TilesetInteriorFloor_1156
+  - first:
+      213: -7183473795509213392
+    second: TilesetInteriorFloor_1157
+  - first:
+      213: -8034538240040165364
+    second: TilesetInteriorFloor_1158
+  - first:
+      213: 1482450256142086736
+    second: TilesetInteriorFloor_1159
+  - first:
+      213: 8934127800314503100
+    second: TilesetInteriorFloor_1160
+  - first:
+      213: 2172630474949954250
+    second: TilesetInteriorFloor_1161
+  - first:
+      213: -3509632284123924341
+    second: TilesetInteriorFloor_1162
+  - first:
+      213: -3539728348990932328
+    second: TilesetInteriorFloor_1163
+  - first:
+      213: -8057604996730867104
+    second: TilesetInteriorFloor_1164
+  - first:
+      213: 784581843619380451
+    second: TilesetInteriorFloor_1165
+  - first:
+      213: 1424978417243268087
+    second: TilesetInteriorFloor_1166
+  - first:
+      213: -5373563005269071365
+    second: TilesetInteriorFloor_1167
+  - first:
+      213: -7705355236125224020
+    second: TilesetInteriorFloor_1168
+  - first:
+      213: 1319257135358476446
+    second: TilesetInteriorFloor_1169
+  - first:
+      213: -8551587990260911969
+    second: TilesetInteriorFloor_1170
+  - first:
+      213: 4938694239723152802
+    second: TilesetInteriorFloor_1171
+  - first:
+      213: 7162727082214885261
+    second: TilesetInteriorFloor_1172
+  - first:
+      213: -9208440635483665750
+    second: TilesetInteriorFloor_1173
+  - first:
+      213: -5430342748494189238
+    second: TilesetInteriorFloor_1174
+  - first:
+      213: 7530512564048069477
+    second: TilesetInteriorFloor_1175
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -1017,7 +3663,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1038,7 +3684,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1059,7 +3705,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1080,7 +3726,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1101,7 +3747,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1122,7 +3768,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1143,7 +3789,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1164,7 +3810,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1185,7 +3831,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1201,11 +3847,11 @@ TextureImporter:
       name: TilesetInteriorFloor_9
       rect:
         serializedVersion: 2
-        x: 144
-        y: 256
-        width: 16
-        height: 16
-      alignment: 0
+        x: 152
+        y: 264
+        width: 8
+        height: 8
+      alignment: 6
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
@@ -1227,7 +3873,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1248,7 +3894,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1269,7 +3915,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1290,7 +3936,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1311,7 +3957,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1332,7 +3978,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1353,7 +3999,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1374,7 +4020,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1395,7 +4041,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1416,7 +4062,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1437,7 +4083,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1458,7 +4104,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1479,7 +4125,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1500,7 +4146,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1521,7 +4167,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1542,7 +4188,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1563,7 +4209,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1584,7 +4230,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1605,7 +4251,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1626,7 +4272,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1647,7 +4293,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1668,7 +4314,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1689,7 +4335,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1710,7 +4356,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1731,7 +4377,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1752,7 +4398,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1773,7 +4419,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1794,7 +4440,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1815,7 +4461,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1836,7 +4482,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1857,7 +4503,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1878,7 +4524,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1899,7 +4545,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1920,7 +4566,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1941,7 +4587,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1962,7 +4608,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1983,7 +4629,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2004,7 +4650,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2025,7 +4671,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2046,7 +4692,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2067,7 +4713,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2088,7 +4734,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2109,7 +4755,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2130,7 +4776,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2151,7 +4797,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2172,7 +4818,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2193,7 +4839,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2214,7 +4860,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2235,7 +4881,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2256,7 +4902,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2277,7 +4923,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2298,7 +4944,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2319,7 +4965,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2340,7 +4986,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2361,7 +5007,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2382,7 +5028,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2403,7 +5049,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2424,7 +5070,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2445,7 +5091,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2466,7 +5112,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2487,7 +5133,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2508,7 +5154,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2529,7 +5175,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2550,7 +5196,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2571,7 +5217,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2592,7 +5238,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2613,7 +5259,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2634,7 +5280,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2655,7 +5301,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2676,7 +5322,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2697,7 +5343,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2718,7 +5364,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2739,7 +5385,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2760,7 +5406,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2781,7 +5427,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2802,7 +5448,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2823,7 +5469,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2844,7 +5490,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2865,7 +5511,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2886,7 +5532,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2907,7 +5553,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2928,7 +5574,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2949,7 +5595,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2970,7 +5616,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2991,7 +5637,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3012,7 +5658,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3033,7 +5679,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3054,7 +5700,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3075,7 +5721,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3096,7 +5742,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3117,7 +5763,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3138,7 +5784,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3159,7 +5805,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3180,7 +5826,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3201,7 +5847,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3222,7 +5868,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3243,7 +5889,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3264,7 +5910,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3285,7 +5931,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3306,7 +5952,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3327,7 +5973,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3348,7 +5994,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3369,7 +6015,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3390,7 +6036,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3411,7 +6057,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3432,7 +6078,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3453,7 +6099,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3474,7 +6120,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3495,7 +6141,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3516,7 +6162,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3537,7 +6183,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3558,7 +6204,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3579,7 +6225,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3600,7 +6246,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3621,7 +6267,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3642,7 +6288,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3663,7 +6309,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3684,7 +6330,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3705,7 +6351,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3726,7 +6372,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3747,7 +6393,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3768,7 +6414,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3789,7 +6435,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3810,7 +6456,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3831,7 +6477,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3852,7 +6498,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3873,7 +6519,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3894,7 +6540,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3915,7 +6561,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3936,7 +6582,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3957,7 +6603,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3978,7 +6624,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3999,7 +6645,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -4020,7 +6666,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -4041,7 +6687,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -4062,7 +6708,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -4083,7 +6729,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -4104,7 +6750,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -4125,7 +6771,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -4146,7 +6792,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -4167,7 +6813,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -4188,7 +6834,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -4209,7 +6855,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -4230,7 +6876,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -4251,7 +6897,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -4272,7 +6918,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -4293,7 +6939,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -4314,7 +6960,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -4335,7 +6981,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -4356,7 +7002,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -4377,7 +7023,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -4398,7 +7044,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -4419,7 +7065,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -4440,7 +7086,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -4461,7 +7107,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -4482,7 +7128,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -4503,7 +7149,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -4524,7 +7170,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -4545,7 +7191,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -4566,7 +7212,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -4587,7 +7233,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -4608,7 +7254,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -4629,7 +7275,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -4650,7 +7296,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -4671,7 +7317,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -4692,7 +7338,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -4713,7 +7359,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -4734,7 +7380,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -4755,7 +7401,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -4776,7 +7422,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -4797,7 +7443,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -4818,7 +7464,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -4839,7 +7485,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -4860,7 +7506,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -4881,7 +7527,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -4902,7 +7548,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -4923,7 +7569,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -4944,7 +7590,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -4965,7 +7611,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -4986,7 +7632,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -5007,7 +7653,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -5028,7 +7674,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -5049,7 +7695,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -5070,7 +7716,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -5091,7 +7737,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -5112,7 +7758,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -5133,7 +7779,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -5154,7 +7800,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -5175,7 +7821,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -5196,7 +7842,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -5217,7 +7863,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -5238,7 +7884,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -5259,7 +7905,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -5280,7 +7926,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -5301,7 +7947,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -5322,7 +7968,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -5343,7 +7989,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -5364,7 +8010,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -5385,7 +8031,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -5406,7 +8052,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -5427,7 +8073,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -5448,7 +8094,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -5469,7 +8115,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -5490,7 +8136,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -5511,7 +8157,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -5532,7 +8178,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -5553,7 +8199,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -5574,7 +8220,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -5595,7 +8241,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -5616,7 +8262,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -5637,7 +8283,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -5658,7 +8304,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -5679,7 +8325,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -5700,7 +8346,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -5721,7 +8367,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -5742,7 +8388,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -5763,7 +8409,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -5784,7 +8430,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -5805,7 +8451,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -5826,7 +8472,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -5847,7 +8493,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -5868,7 +8514,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -5889,7 +8535,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -5910,7 +8556,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -5931,7 +8577,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -5952,7 +8598,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -5973,7 +8619,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -5994,7 +8640,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -6015,7 +8661,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -6036,7 +8682,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -6057,7 +8703,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -6078,7 +8724,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -6099,7 +8745,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -6120,7 +8766,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -6141,7 +8787,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -6162,7 +8808,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -6183,7 +8829,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -6204,7 +8850,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -6225,7 +8871,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -6246,7 +8892,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -6267,7 +8913,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -6288,7 +8934,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -6309,7 +8955,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -6330,7 +8976,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -6351,7 +8997,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -6372,7 +9018,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -6393,7 +9039,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -6414,7 +9060,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -6435,7 +9081,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -6456,7 +9102,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -6477,7 +9123,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -6498,7 +9144,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -6519,7 +9165,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -6540,7 +9186,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -6561,7 +9207,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -6582,7 +9228,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -6603,7 +9249,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -6624,7 +9270,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -6645,7 +9291,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -6666,7 +9312,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -6687,7 +9333,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -6708,7 +9354,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -6729,7 +9375,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -6750,7 +9396,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -6771,7 +9417,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -6792,7 +9438,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -6813,7 +9459,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -6834,7 +9480,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -6855,7 +9501,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -6876,7 +9522,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -6897,7 +9543,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -6918,7 +9564,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -6939,7 +9585,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -6960,7 +9606,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -6981,7 +9627,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -7002,7 +9648,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -7023,7 +9669,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -7044,7 +9690,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -7065,7 +9711,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -7086,7 +9732,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -7107,7 +9753,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -7128,7 +9774,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -7149,7 +9795,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -7170,7 +9816,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []

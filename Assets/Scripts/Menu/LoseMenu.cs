@@ -7,7 +7,7 @@ public class LoseMenu : MonoBehaviour
 {
     public void ReturnMenu()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 3);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
 
     public void QuitGame()

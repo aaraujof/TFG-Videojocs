@@ -34,7 +34,6 @@ public class DungeonGeneration : MonoBehaviour
             if (rooms.Count > i)
             {
                 instantiateRooms(templates, rooms[i], unavailablePositions[i]);
-                Debug.Log(rooms[i]);
             }
         }
 

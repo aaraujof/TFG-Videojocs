@@ -7,7 +7,7 @@ public class WinMenu : MonoBehaviour
 {
     public void ReturnMenu()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 2);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 2);
     }
 
     public void QuitGame()
