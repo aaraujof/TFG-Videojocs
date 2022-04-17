@@ -30,8 +30,6 @@ public class LarvaController : MonoBehaviour
         if (hp <= 0)
         {
             col.isTrigger = true;
-            PlayerPrefs.SetInt("myNumber", 100);
-            PlayerPrefs.Save();
             animator.SetBool("Dead", true);
             rb.mass = 999;
             Destroy(gameObject,0.8f);
@@ -107,6 +105,11 @@ public class LarvaController : MonoBehaviour
     public void Damage(float damage)
     {
         hp = hp - damage;
+        if (hp <=0)
+        {
+            PlayerPrefs.SetInt("larva", PlayerPrefs.GetInt("larva") + 1);
+            PlayerPrefs.Save();
+        }
     }
 
     private bool playerInRoom(Vector2 player, Vector2 enemyRoom)

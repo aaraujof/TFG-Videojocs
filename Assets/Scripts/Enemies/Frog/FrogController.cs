@@ -106,9 +106,23 @@ public class FrogController : MonoBehaviour
         Gizmos.DrawWireSphere(transform.position, visionRange);
     }
 
-    public void Damage(float damage)
+    public void Damage(float damage, string name)
     {
         hp = hp - damage;
+        if (hp <= 0)
+        {
+            PlayerPrefs.SetInt("Win", PlayerPrefs.GetInt("Win") + 1);
+            PlayerPrefs.SetInt("Runs", PlayerPrefs.GetInt("Runs") + 1);
+            if (name == "Frog")
+            {
+                PlayerPrefs.SetInt("Frog", PlayerPrefs.GetInt("Frog") + 1); 
+            }
+            if (name == "FrogGreen")
+            {
+                PlayerPrefs.SetInt("FrogGreen", PlayerPrefs.GetInt("FrogGreen") + 1);
+            }
+            PlayerPrefs.Save();
+        }
     }
 
     private bool playerInRoom(Vector2 player, Vector2 enemyRoom)

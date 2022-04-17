@@ -75,6 +75,12 @@ public class PlayerController : MonoBehaviour
     {
         hp = hp - 1;
         DisplayLives();
+        if (hp <= 0)
+        {
+            PlayerPrefs.SetInt("Lose", PlayerPrefs.GetInt("Lose") + 1);
+            PlayerPrefs.SetInt("Runs", PlayerPrefs.GetInt("Runs") + 1);
+            PlayerPrefs.Save();
+        }
     }
 
     void OnCollisionEnter2D(Collision2D col)

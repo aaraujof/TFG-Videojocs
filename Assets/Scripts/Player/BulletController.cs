@@ -28,11 +28,11 @@ public class BulletController : MonoBehaviour
                 }
                 if ("Frog(Clone)" == collision.gameObject.name)
                 {
-                    collision.gameObject.GetComponent<FrogController>().Damage(GameObject.Find("Player").GetComponent<ShootController>().damage);
+                    collision.gameObject.GetComponent<FrogController>().Damage(GameObject.Find("Player").GetComponent<ShootController>().damage, "Frog");
                 }
                 if ("FrogGreen(Clone)" == collision.gameObject.name)
                 {
-                    collision.gameObject.GetComponent<FrogController>().Damage(GameObject.Find("Player").GetComponent<ShootController>().damage);
+                    collision.gameObject.GetComponent<FrogController>().Damage(GameObject.Find("Player").GetComponent<ShootController>().damage, "FrogGreen");
                 }
             }
 

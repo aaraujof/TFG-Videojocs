@@ -104,6 +104,11 @@ public class SlimeController : MonoBehaviour
     public void Damage(float damage)
     {
         hp = hp - damage;
+        if (hp <= 0)
+        {
+            PlayerPrefs.SetInt("slime", PlayerPrefs.GetInt("slime") + 1);
+            PlayerPrefs.Save();
+        }
     }
 
     private bool playerInRoom(Vector2 player, Vector2 enemyRoom)
