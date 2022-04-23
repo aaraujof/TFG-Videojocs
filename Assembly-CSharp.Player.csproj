@@ -66,6 +66,7 @@
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\SimpleScript.cs" />
     <Compile Include="Assets\Scripts\Enemies\Mouse\MouseController.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_DigitValidator.cs" />
+    <Compile Include="Assets\Scripts\Menu\SettingsController.cs" />
     <Compile Include="Assets\Scripts\Menu\PauseMenuController.cs" />
     <Compile Include="Assets\Scripts\DungeonGeneration\DungeonGeneration.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark02.cs" />
@@ -119,7 +120,7 @@
     <Compile Include="Assets\Scripts\Stats\Kills.cs" />
     <Compile Include="Assets\Scripts\People\OldWomanController.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextEventCheck.cs" />
-    <Compile Include="Assets\Scripts\Menu\SettingsController.cs" />
+    <Compile Include="Assets\Scripts\Menu\WinLoseSettings.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
