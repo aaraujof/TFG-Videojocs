@@ -58,6 +58,7 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\Enemies\EnemyTemplates.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ShaderPropAnimator.cs" />
+    <Compile Include="Assets\Scripts\Stats\Run.cs" />
     <Compile Include="Assets\PlayerPrefsEditor\SimpleEncryption.cs" />
     <Compile Include="Assets\PlayerPrefsEditor\PlayerPrefsUtility.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\SkewTextExample.cs" />
@@ -115,10 +116,10 @@
     <Compile Include="Assets\Scripts\Menu\PauseMenuVillage.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextInfoDebugTool.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />
+    <Compile Include="Assets\Scripts\Stats\Kills.cs" />
     <Compile Include="Assets\Scripts\People\OldWomanController.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextEventCheck.cs" />
-    <Compile Include="Assets\Scripts\Stats\Run.cs" />
-    <Compile Include="Assets\Scripts\Stats\Kills.cs" />
+    <Compile Include="Assets\Scripts\Menu\SettingsController.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />

@@ -1,15 +1,18 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
 public class MainMenu : MonoBehaviour
 {
     public GameObject controls;
+    public GameObject seetings;
     public GameObject playButton;
     public GameObject controlsButton;
+    public GameObject seetingsButton;
     public GameObject quitButton;
-    public GameObject title;
+    public GameObject buttonsBackground;
 
     public void PlayGame()
     {
@@ -26,18 +29,42 @@ public class MainMenu : MonoBehaviour
         if (controls.activeSelf)
         {
             controls.SetActive(false);
-            title.SetActive(true);
             playButton.SetActive(true);
             controlsButton.SetActive(true);
+            seetingsButton.SetActive(true);
             quitButton.SetActive(true);
+            buttonsBackground.SetActive(true);
         }
         else
         {
             controls.SetActive(true);
-            title.SetActive(false);
             playButton.SetActive(false);
             controlsButton.SetActive(false);
+            seetingsButton.SetActive(false);
             quitButton.SetActive(false);
+            buttonsBackground.SetActive(false);
+        }
+    }
+
+    public void SeeSetings()
+    {
+        if (seetings.activeSelf)
+        {
+            seetings.SetActive(false);
+            playButton.SetActive(true);
+            controlsButton.SetActive(true);
+            seetingsButton.SetActive(true);
+            quitButton.SetActive(true);
+            buttonsBackground.SetActive(true);
+        }
+        else
+        {
+            seetings.SetActive(true);
+            playButton.SetActive(false);
+            controlsButton.SetActive(false);
+            seetingsButton.SetActive(false);
+            quitButton.SetActive(false);
+            buttonsBackground.SetActive(false);
         }
     }
 }
