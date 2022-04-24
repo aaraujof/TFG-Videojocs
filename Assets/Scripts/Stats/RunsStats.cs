@@ -24,6 +24,12 @@ public class RunsStats : MonoBehaviour
     public TMP_Text win;
     public TMP_Text lose;
 
+    public GameObject larvaChallenge;
+    public GameObject slimeChallenge;
+    public GameObject mouseChallenge;
+    public GameObject FrogChallenge;
+    public GameObject FrogGreenChallenge;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -35,7 +41,7 @@ public class RunsStats : MonoBehaviour
         Win = PlayerPrefs.GetInt("Win");
         Lose = PlayerPrefs.GetInt("Lose");
         Runs = PlayerPrefs.GetInt("Runs");
-
+        
         larvaKills.text = larva.ToString();
         slimeKills.text = slime.ToString();
         mouseKills.text = mouse.ToString();
@@ -44,5 +50,46 @@ public class RunsStats : MonoBehaviour
         attempts.text = "Total Attempts: " + Runs.ToString();
         win.text = "Games Won: " + Runs.ToString();
         lose.text = "Games Lost: " + Runs.ToString();
+
+        if (larva >= 100)
+        {
+            larvaChallenge.SetActive(true);
+        }
+        else
+        {
+            larvaChallenge.SetActive(false);
+        }
+        if (slime >= 100)
+        {
+            slimeChallenge.SetActive(true);
+        }
+        else
+        {
+            slimeChallenge.SetActive(false);
+        }
+        if (mouse >= 100)
+        {
+            mouseChallenge.SetActive(true);
+        }
+        else
+        {
+            mouseChallenge.SetActive(false);
+        }
+        if (Frog >= 15)
+        {
+            FrogChallenge.SetActive(true);
+        }
+        else
+        {
+            FrogChallenge.SetActive(false);
+        }
+        if (FrogGreen >= 15)
+        {
+            FrogGreenChallenge.SetActive(true);
+        }
+        else
+        {
+            FrogGreenChallenge.SetActive(false);
+        }
     }
 }
