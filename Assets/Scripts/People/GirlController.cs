@@ -8,7 +8,6 @@ public class GirlController : MonoBehaviour
     public float visionRange;
     public GameObject girlText;
 
-    private bool inPoint = false;
     private float playerDistance;
     private Transform player;
 

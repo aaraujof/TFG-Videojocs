@@ -15,6 +15,7 @@ TagManager:
   - Item
   - Items
   - People
+  - EnemyBullet
   layers:
   - Default
   - TransparentFX

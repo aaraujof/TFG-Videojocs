@@ -67,6 +67,27 @@ public class EnemyTemplates : MonoBehaviour
                 e.GetComponent<MouseController>().SetValues(r);
             }
         }
+        if (e.name == "Mushroom(Clone)")
+        {
+            if (e.GetComponent<MushroomController>().room == initial)
+            {
+                e.GetComponent<MushroomController>().SetValues(r);
+            }
+        }
+        if (e.name == "Bamboo(Clone)")
+        {
+            if (e.GetComponent<BambooController>().room == initial)
+            {
+                e.GetComponent<BambooController>().SetValues(r);
+            }
+        }
+        if (e.name == "Skull(Clone)")
+        {
+            if (e.GetComponent<SkullController>().room == initial)
+            {
+                e.GetComponent<SkullController>().SetValues(r);
+            }
+        }
         if (e.name == "Frog(Clone)")
         {
             if (e.GetComponent<FrogController>().room == initial)

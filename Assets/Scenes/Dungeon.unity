@@ -2247,6 +2247,9 @@ MonoBehaviour:
   - {fileID: 7441707094507732648, guid: d49f4632c783e9a46a67a1842b716c82, type: 3}
   - {fileID: 2119067246594215234, guid: 36c89f8929ec50c48adba04a53a22d0d, type: 3}
   - {fileID: 3762050184521895372, guid: f1e37918d46683a4f9dd8a0c588d4a24, type: 3}
+  - {fileID: 8311288012668349999, guid: 9a3b7972b40dfb540a117aa605f75b38, type: 3}
+  - {fileID: 1067007203979573733, guid: 6c0d0a5b451c7d244881ef0c8f4516c0, type: 3}
+  - {fileID: 1519595038611642160, guid: b9d4c92023084a44c945b26a00d5e784, type: 3}
   bosses:
   - {fileID: 4949497487770116956, guid: 0c6915971f0140f4785f7d218418a441, type: 3}
   - {fileID: 2466238358906718100, guid: 81f7e09051f400148b50dcae40770507, type: 3}
@@ -3007,7 +3010,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rb: {fileID: 1564869274}
+  col: {fileID: 1564869276}
   animator: {fileID: 1564869275}
+  spriteRenderer: {fileID: 1564869271}
   collision: 0
   lives:
   - {fileID: 1866991356}
@@ -3111,7 +3116,7 @@ MonoBehaviour:
   bulletPrefab: {fileID: 5182737977106302263, guid: 6ed00a192f9280247b995c8e7e897681, type: 3}
   animator: {fileID: 1564869275}
   bulletForce: 10
-  fireRate: 0.5
+  fireRate: 1
   damage: 3.5
   range: 0.5
 --- !u!50 &1564869274

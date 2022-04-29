@@ -9,7 +9,7 @@ public class BulletController : MonoBehaviour
     void OnCollisionEnter2D(Collision2D collision)
     {
         // Destroy object on collision and hitEffect
-        if ("Enemy" == collision.gameObject.tag || "Wall" == collision.gameObject.tag)
+        if ("Enemy" == collision.gameObject.tag || "Wall" == collision.gameObject.tag || "EnemyBullet" == collision.gameObject.tag)
         {
             if ("Enemy" == collision.gameObject.tag)
             {
@@ -25,6 +25,18 @@ public class BulletController : MonoBehaviour
                 if ("Mouse(Clone)" == collision.gameObject.name)
                 {
                     collision.gameObject.GetComponent<MouseController>().Damage(GameObject.Find("Player").GetComponent<ShootController>().damage);
+                }
+                if ("Mushroom(Clone)" == collision.gameObject.name)
+                {
+                    collision.gameObject.GetComponent<MushroomController>().Damage(GameObject.Find("Player").GetComponent<ShootController>().damage);
+                }
+                if ("Bamboo(Clone)" == collision.gameObject.name)
+                {
+                    collision.gameObject.GetComponent<BambooController>().Damage(GameObject.Find("Player").GetComponent<ShootController>().damage);
+                }
+                if ("Skull(Clone)" == collision.gameObject.name)
+                {
+                    collision.gameObject.GetComponent<SkullController>().Damage(GameObject.Find("Player").GetComponent<ShootController>().damage);
                 }
                 if ("Frog(Clone)" == collision.gameObject.name)
                 {

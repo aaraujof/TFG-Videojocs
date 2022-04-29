@@ -6,11 +6,15 @@ using UnityEngine.SceneManagement;
 public class PlayerController : MonoBehaviour
 {
     public Rigidbody2D rb;
+    public Collider2D col;
     public Animator animator;
+    public SpriteRenderer spriteRenderer;
     public bool collision;
     public List<GameObject> lives;
     public float speed;
     public int hp;
+
+    private bool dead = false;
 
     Vector2 distance;
     Vector2 movement;
@@ -74,13 +78,27 @@ public class PlayerController : MonoBehaviour
     public void Damage()
     {
         hp = hp - 1;
+        StartCoroutine(changeColorOnHit(0.1f));
         DisplayLives();
         if (hp <= 0)
         {
-            PlayerPrefs.SetInt("Lose", PlayerPrefs.GetInt("Lose") + 1);
-            PlayerPrefs.SetInt("Runs", PlayerPrefs.GetInt("Runs") + 1);
-            PlayerPrefs.Save();
+            if (dead == false)
+            {
+                dead = true;
+                PlayerPrefs.SetInt("Lose", PlayerPrefs.GetInt("Lose") + 1);
+                PlayerPrefs.SetInt("Runs", PlayerPrefs.GetInt("Runs") + 1);
+                PlayerPrefs.Save();
+            }
         }
+    }
+
+    IEnumerator changeColorOnHit(float wait)
+    {
+        spriteRenderer.color = Color.red;
+
+        yield return new WaitForSeconds(wait);
+
+        spriteRenderer.color = Color.white;
     }
 
     void OnCollisionEnter2D(Collision2D col)
