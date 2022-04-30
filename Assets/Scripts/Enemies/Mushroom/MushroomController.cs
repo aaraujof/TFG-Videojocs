@@ -21,7 +21,7 @@ public class MushroomController : MonoBehaviour
     public float range;
 
     private Transform player;
-    private float hp = 19f;
+    private float hp = 18f;
     private bool playerInsideRoom;
     private float nextFire = 0.0f;
 
@@ -51,9 +51,10 @@ public class MushroomController : MonoBehaviour
         playerInsideRoom = playerInRoom(player.position, room);
         if (hp > 0)
         {
-            if (playerDistance < visionRange && playerInsideRoom == true && Time.time > nextFire)
+            nextFire += Time.deltaTime;
+            if (playerDistance < visionRange && playerInsideRoom == true && nextFire > Time.deltaTime + fireRate)
             {
-                nextFire = Time.time + fireRate;
+                nextFire = 0;
                 Shoot();
             }
         }

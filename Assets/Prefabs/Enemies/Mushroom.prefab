@@ -89,7 +89,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8311288012668349999}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 7, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 8311288013879559383}
@@ -222,7 +222,6 @@ MonoBehaviour:
   col: {fileID: 8311288012668349986}
   animator: {fileID: 8311288012668349988}
   spriteRenderer: {fileID: 8311288012668349989}
-  speed: 0.5
   playerDistance: 0
   visionRange: 5
   room: {x: 0, y: 0}

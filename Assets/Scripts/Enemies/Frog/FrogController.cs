@@ -17,6 +17,7 @@ public class FrogController : MonoBehaviour
 
     private Transform player;
     private bool playerInsideRoom;
+    private bool dead = false;
 
     // Start is called before the first frame update
     void Start()
@@ -111,17 +112,21 @@ public class FrogController : MonoBehaviour
         hp = hp - damage;
         if (hp <= 0)
         {
-            PlayerPrefs.SetInt("Win", PlayerPrefs.GetInt("Win") + 1);
-            PlayerPrefs.SetInt("Runs", PlayerPrefs.GetInt("Runs") + 1);
-            if (name == "Frog")
+            if (dead == false)
             {
-                PlayerPrefs.SetInt("Frog", PlayerPrefs.GetInt("Frog") + 1); 
+                dead = true;
+                PlayerPrefs.SetInt("Win", PlayerPrefs.GetInt("Win") + 1);
+                PlayerPrefs.SetInt("Runs", PlayerPrefs.GetInt("Runs") + 1);
+                if (name == "Frog")
+                {
+                    PlayerPrefs.SetInt("Frog", PlayerPrefs.GetInt("Frog") + 1);
+                }
+                if (name == "FrogGreen")
+                {
+                    PlayerPrefs.SetInt("FrogGreen", PlayerPrefs.GetInt("FrogGreen") + 1);
+                }
+                PlayerPrefs.Save();
             }
-            if (name == "FrogGreen")
-            {
-                PlayerPrefs.SetInt("FrogGreen", PlayerPrefs.GetInt("FrogGreen") + 1);
-            }
-            PlayerPrefs.Save();
         }
     }
 

@@ -46,6 +46,14 @@ public class BulletController : MonoBehaviour
                 {
                     collision.gameObject.GetComponent<FrogController>().Damage(GameObject.Find("Player").GetComponent<ShootController>().damage, "FrogGreen");
                 }
+                if ("Flam(Clone)" == collision.gameObject.name)
+                {
+                    collision.gameObject.GetComponent<FlamController>().Damage(GameObject.Find("Player").GetComponent<ShootController>().damage);
+                }
+                if ("Cyclop(Clone)" == collision.gameObject.name)
+                {
+                    collision.gameObject.GetComponent<CyclopController>().Damage(GameObject.Find("Player").GetComponent<ShootController>().damage);
+                }
             }
 
             GameObject effect = Instantiate(hitEffect, transform.position, Quaternion.identity);

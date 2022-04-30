@@ -9,7 +9,7 @@ public class MushroomShoot : MonoBehaviour
     void OnCollisionEnter2D(Collision2D collision)
     {
         // Destroy object on collision and hitEffect
-        if ("Player" == collision.gameObject.tag || "Wall" == collision.gameObject.tag || "Bullet" == collision.gameObject.tag)
+        if ("Player" == collision.gameObject.tag || "Wall" == collision.gameObject.tag || "Bullet" == collision.gameObject.tag || "EnemyBullet" == collision.gameObject.tag || ("Enemy" == collision.gameObject.tag && collision.gameObject.name != "Mushroom(Clone)"))
         {
             if ("Player" == collision.gameObject.tag)
             {

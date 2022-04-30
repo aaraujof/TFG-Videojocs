@@ -52,9 +52,10 @@ public class SkullController : MonoBehaviour
         playerInsideRoom = playerInRoom(player.position, room);
         if (hp > 0)
         {
-            if (playerDistance < visionRange && playerInsideRoom == true && Time.time > nextFire)
+            nextFire += Time.deltaTime;
+            if (playerDistance < visionRange && playerInsideRoom == true && nextFire > Time.deltaTime + fireRate)
             {
-                nextFire = Time.time + fireRate;
+                nextFire = 0;
                 Shoot();
             }
         }

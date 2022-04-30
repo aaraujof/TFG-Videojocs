@@ -70,7 +70,7 @@ public class StatsController : MonoBehaviour
             if ("Octopus(Clone)" == other.gameObject.name)
             {
                 pickUpItem(other.gameObject);
-                shootController.fireRate = shootController.fireRate - 0.1f;
+                shootController.fireRate = shootController.fireRate - 0.2f;
             }
 
             if ("Yakitori(Clone)" == other.gameObject.name)

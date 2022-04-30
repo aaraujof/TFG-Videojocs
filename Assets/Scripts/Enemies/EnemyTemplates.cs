@@ -102,5 +102,19 @@ public class EnemyTemplates : MonoBehaviour
                 e.GetComponent<FrogController>().SetValues(r);
             }
         }
+        if (e.name == "Flam(Clone)")
+        {
+            if (e.GetComponent<FlamController>().room == initial)
+            {
+                e.GetComponent<FlamController>().SetValues(r);
+            }
+        }
+        if (e.name == "Cyclop(Clone)")
+        {
+            if (e.GetComponent<CyclopController>().room == initial)
+            {
+                e.GetComponent<CyclopController>().SetValues(r);
+            }
+        }
     }
 }

@@ -14,6 +14,8 @@ public class RunsStats : MonoBehaviour
     public int skull;
     public int Frog;
     public int FrogGreen;
+    public int Flam;
+    public int Cyclop;
     public int Runs;
     public int Win;
     public int Lose;
@@ -26,6 +28,8 @@ public class RunsStats : MonoBehaviour
     public TMP_Text skullKills;
     public TMP_Text FrogKills;
     public TMP_Text FrogGreenKills;
+    public TMP_Text FlamKills;
+    public TMP_Text CyclopKills;
     public TMP_Text attempts;
     public TMP_Text win;
     public TMP_Text lose;
@@ -38,6 +42,8 @@ public class RunsStats : MonoBehaviour
     public GameObject skullChallenge;
     public GameObject FrogChallenge;
     public GameObject FrogGreenChallenge;
+    public GameObject FlamChallenge;
+    public GameObject CyclopChallenge;
 
     // Start is called before the first frame update
     void Start()
@@ -50,6 +56,8 @@ public class RunsStats : MonoBehaviour
         skull = PlayerPrefs.GetInt("skull");
         Frog = PlayerPrefs.GetInt("Frog");
         FrogGreen = PlayerPrefs.GetInt("FrogGreen");
+        Flam = PlayerPrefs.GetInt("Flam");
+        Cyclop = PlayerPrefs.GetInt("Cyclop");
         Win = PlayerPrefs.GetInt("Win");
         Lose = PlayerPrefs.GetInt("Lose");
         Runs = PlayerPrefs.GetInt("Runs");
@@ -62,9 +70,11 @@ public class RunsStats : MonoBehaviour
         skullKills.text = skull.ToString();
         FrogKills.text = Frog.ToString();
         FrogGreenKills.text = FrogGreen.ToString();
+        FlamKills.text = Flam.ToString();
+        CyclopKills.text = Cyclop.ToString();
         attempts.text = "Total Attempts: " + Runs.ToString();
-        win.text = "Games Won: " + Runs.ToString();
-        lose.text = "Games Lost: " + Runs.ToString();
+        win.text = "Games Won: " + Win.ToString();
+        lose.text = "Games Lost: " + Lose.ToString();
 
         if (larva >= 100)
         {
@@ -129,6 +139,22 @@ public class RunsStats : MonoBehaviour
         else
         {
             FrogGreenChallenge.SetActive(false);
+        }
+        if (Flam >= 15)
+        {
+            FlamChallenge.SetActive(true);
+        }
+        else
+        {
+            FlamChallenge.SetActive(false);
+        }
+        if (Cyclop >= 15)
+        {
+            CyclopChallenge.SetActive(true);
+        }
+        else
+        {
+            CyclopChallenge.SetActive(false);
         }
     }
 }

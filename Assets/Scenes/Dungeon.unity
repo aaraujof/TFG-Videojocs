@@ -597,7 +597,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 269308339121100391, guid: 2993cbf89d67a66438f31b162400a2c7, type: 3}
       propertyPath: m_RootOrder
-      value: 8
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 269308339121100391, guid: 2993cbf89d67a66438f31b162400a2c7, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2253,6 +2253,8 @@ MonoBehaviour:
   bosses:
   - {fileID: 4949497487770116956, guid: 0c6915971f0140f4785f7d218418a441, type: 3}
   - {fileID: 2466238358906718100, guid: 81f7e09051f400148b50dcae40770507, type: 3}
+  - {fileID: 4199473118869542912, guid: a7d121ebbf8a39e4eaaf09ee6f2dd828, type: 3}
+  - {fileID: 3636467205233896134, guid: 8a7e008104c260d45850686ee35da43c, type: 3}
   spawnedEnemies: []
   spawnedBoss: []
 --- !u!4 &1033300853
@@ -3026,7 +3028,7 @@ MonoBehaviour:
   - {fileID: 1067457247}
   - {fileID: 283370106}
   speed: 3.5
-  hp: 3
+  hp: 5
 --- !u!212 &1564869271
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3405,7 +3407,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1831990668
 MonoBehaviour:

@@ -20,14 +20,6 @@ public class ShootController : MonoBehaviour
     Vector2 shoot;
     Vector2 movement;
 
-    // Start is called before the first frame update
-    void Start()
-    {
-        /*
-         * 
-         */
-    }
-
     // Update is called once per frame
     void Update()
     {
@@ -54,18 +46,12 @@ public class ShootController : MonoBehaviour
         }
 
         // Shooting
-        if ( (Input.GetButton("Horizontal_shoot") || Input.GetButton("Vertical_shoot")) && Time.time > nextFire )
+        nextFire += Time.deltaTime;
+        if ( (Input.GetButton("Horizontal_shoot") || Input.GetButton("Vertical_shoot")) && nextFire > Time.deltaTime + fireRate)
         {
-            nextFire = Time.time + fireRate;
+            nextFire = 0;
             Shoot();
         }
-     
-    }
-    void FixedUpdate()
-    {
-        /*
-         * 
-        */
     }
 
     void Shoot()

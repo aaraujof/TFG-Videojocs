@@ -6,12 +6,10 @@ public class SkullShoot : MonoBehaviour
 {
     public GameObject hitEffect;
 
-    private Color orange = new Color(255.0f, 153.0f, 51.0f, 125.0f);
-
     void OnCollisionEnter2D(Collision2D collision)
     {
         // Destroy object on collision and hitEffect
-        if ("Player" == collision.gameObject.tag || "Wall" == collision.gameObject.tag || "Bullet" == collision.gameObject.tag)
+        if ("Player" == collision.gameObject.tag || "Wall" == collision.gameObject.tag || "Bullet" == collision.gameObject.tag || "EnemyBullet" == collision.gameObject.tag || ("Enemy" == collision.gameObject.tag && collision.gameObject.name != "Skull(Clone)"))
         {
             if ("Player" == collision.gameObject.tag)
             {
