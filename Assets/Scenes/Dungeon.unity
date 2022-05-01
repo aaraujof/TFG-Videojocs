@@ -1206,6 +1206,12 @@ MonoBehaviour:
   - {fileID: 5443428684975937117, guid: bb3609b859ab00042b5c92825408e367, type: 3}
   - {fileID: 2238034734797066569, guid: 1e51b33a3a4c09d40ac6f3c8a526662a, type: 3}
   - {fileID: 1840902504161993544, guid: f893dc71f119ba24783ead8780d70817, type: 3}
+  - {fileID: 7186233379177869523, guid: 2bb0ad10d0dde234a907c3529fde95f0, type: 3}
+  - {fileID: 781022502467374249, guid: c4cbca776c88ec148b6afce45790cdae, type: 3}
+  - {fileID: 453561148414810936, guid: 35e45af07e2f6c34288a2d2b49820c7d, type: 3}
+  - {fileID: 962083438910511702, guid: c7295ffbf1f4f5747a9f815feb660892, type: 3}
+  - {fileID: 3925483834218777000, guid: 940a1d4f83a7ad140a006cd6b3a8f1a7, type: 3}
+  - {fileID: 109262556147665701, guid: c257312e12cdb9a4283c6b15c643f2ab, type: 3}
 --- !u!4 &639501626
 Transform:
   m_ObjectHideFlags: 0
@@ -3121,6 +3127,9 @@ MonoBehaviour:
   fireRate: 1
   damage: 3.5
   range: 0.5
+  onigiri: 0
+  calamari: 0
+  shrimp: 0
 --- !u!50 &1564869274
 Rigidbody2D:
   serializedVersion: 4

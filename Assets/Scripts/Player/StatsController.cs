@@ -46,7 +46,6 @@ public class StatsController : MonoBehaviour
                     playerController.hp = playerController.hp + 1;
                     playerController.DisplayLives();
                 }
-                    
             }
 
             if ("Honey(Clone)" == other.gameObject.name)
@@ -103,6 +102,48 @@ public class StatsController : MonoBehaviour
                 }
             }
 
+            if ("Onigiri(Clone)" == other.gameObject.name)
+            {
+                pickUpItem(other.gameObject);
+                shootController.onigiri = true;
+            }
+
+            if ("Calamari(Clone)" == other.gameObject.name)
+            {
+                pickUpItem(other.gameObject);
+                shootController.calamari = true;
+            }
+
+            if ("TeaLeaf(Clone)" == other.gameObject.name)
+            {
+                if (playerController.hp < 10)
+                {
+                    pickUpItem(other.gameObject);
+                    playerController.hp = playerController.hp + 1;
+                    playerController.DisplayLives();
+                }
+                playerController.speed = playerController.speed + 1f;
+            }
+
+            if ("Shrimp(Clone)" == other.gameObject.name)
+            {
+                pickUpItem(other.gameObject);
+                shootController.shrimp = true;
+            }
+
+            if ("Nigiri(Clone)" == other.gameObject.name)
+            {
+                pickUpItem(other.gameObject);
+                shootController.damage = shootController.damage + 0.5f;
+                shootController.fireRate = shootController.fireRate - 0.1f;
+            }
+
+            if ("NigiriSalmon(Clone)" == other.gameObject.name)
+            {
+                pickUpItem(other.gameObject);
+                shootController.range = shootController.range + 0.2f;
+                shootController.bulletForce = shootController.bulletForce + 1f;
+            }
         }
     }
 }
