@@ -18,49 +18,57 @@ public class ShootController : MonoBehaviour
     public bool calamari = false;
     public bool shrimp = false;
 
+    private GameObject player;
+    private PlayerController playerController;
     private float nextFire = 0.0f;
     private float onigiriSize = 1.5f;
+    private int hp;
 
     Vector2 shoot;
-    Vector2 movement;
+
+    void Start()
+    {
+        player = GameObject.FindWithTag("Player");
+        playerController = GameObject.FindWithTag("Player").GetComponent<PlayerController>();
+    }
 
     // Update is called once per frame
     void Update()
     {
-        // Input shoot
-        shoot.x = Input.GetAxisRaw("Horizontal_shoot");
-        shoot.y = Input.GetAxisRaw("Vertical_shoot");
-
-        // Input move
-        movement.x = Input.GetAxisRaw("Horizontal");
-        movement.y = Input.GetAxisRaw("Vertical");
-
-        // Shooting animation
-        if ((Input.GetButton("Horizontal_shoot") || Input.GetButton("Vertical_shoot")))
+        hp = playerController.hp;
+        if (hp > 0)
         {
-            animator.SetFloat("Horizontal_shoot", shoot.x);
-            animator.SetFloat("Vertical_shoot", shoot.y);
-            animator.SetBool("Shooting", true);
-        }
-        else
-        {
-            animator.SetFloat("Horizontal_shoot", 0f);
-            animator.SetFloat("Vertical_shoot", 0f);
-            animator.SetBool("Shooting", false);
-        }
+            // Input shoot
+            shoot.x = Input.GetAxisRaw("Horizontal_shoot");
+            shoot.y = Input.GetAxisRaw("Vertical_shoot");
 
-        // Shooting
-        nextFire += Time.deltaTime;
-        if ( (Input.GetButton("Horizontal_shoot") || Input.GetButton("Vertical_shoot")) && nextFire > Time.deltaTime + fireRate)
-        {
-            nextFire = 0;
-            if (calamari == false)
+            // Shooting animation
+            if ((Input.GetButton("Horizontal_shoot") || Input.GetButton("Vertical_shoot")))
             {
-                Shoot();
+                animator.SetFloat("Horizontal_shoot", shoot.x);
+                animator.SetFloat("Vertical_shoot", shoot.y);
+                animator.SetBool("Shooting", true);
             }
             else
             {
-                shootCalamari();
+                animator.SetFloat("Horizontal_shoot", 0f);
+                animator.SetFloat("Vertical_shoot", 0f);
+                animator.SetBool("Shooting", false);
+            }
+
+            // Shooting
+            nextFire += Time.deltaTime;
+            if ((Input.GetButton("Horizontal_shoot") || Input.GetButton("Vertical_shoot")) && nextFire > Time.deltaTime + fireRate)
+            {
+                nextFire = 0;
+                if (calamari == false)
+                {
+                    Shoot();
+                }
+                else
+                {
+                    shootCalamari();
+                }
             }
         }
     }
