@@ -35,5 +35,26 @@ public class SettingsController : MonoBehaviour
     private void Save()
     {
         PlayerPrefs.SetFloat("musicVolume", volumeSlider.value);
+        PlayerPrefs.Save();
+    }
+
+    public void DeleteGameSave()
+    {
+        PlayerPrefs.SetInt("larva", 0);
+        PlayerPrefs.SetInt("slime", 0);
+        PlayerPrefs.SetInt("mouse", 0);
+        PlayerPrefs.SetInt("Frog", 0);
+        PlayerPrefs.SetInt("FrogGreen", 0);
+        PlayerPrefs.SetInt("Win", 0);
+        PlayerPrefs.SetInt("Lose", 0);
+        PlayerPrefs.SetInt("Runs", 0);
+        PlayerPrefs.SetFloat("musicVolume", 0.5f);
+        Load();
+        PlayerPrefs.SetInt("mushroom", 0);
+        PlayerPrefs.SetInt("bamboo", 0);
+        PlayerPrefs.SetInt("skull", 0);
+        PlayerPrefs.SetInt("Flam", 0);
+        PlayerPrefs.SetInt("Cyclop", 0);
+        PlayerPrefs.Save();
     }
 }
