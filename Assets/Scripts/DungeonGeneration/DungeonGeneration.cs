@@ -579,7 +579,6 @@ public class DungeonGeneration : MonoBehaviour
     {
         return this.rooms[unavailablePositions.IndexOf(new Vector2(position.x, position.y))].name;
     }
-
     private string neighborBottomName(Vector2 position)
     {
         return this.rooms[unavailablePositions.IndexOf(new Vector2(position.x, position.y))].name;
@@ -616,6 +615,37 @@ public class DungeonGeneration : MonoBehaviour
                     top = checkNeighborTop(pos, this.unavailablePositions);
                     bottom = checkNeighborBottom(pos, this.unavailablePositions);
                     right = checkNeighborRight(pos, this.unavailablePositions);
+
+                    if (top == true)
+                    {
+                        Vector2 posT = new Vector2(pos.x, pos.y + 10);
+                        string topName = neighborTopName(posT);
+
+                        if (topName.Contains("B") == false)
+                        {
+                            top = false;
+                        }
+                    }
+                    if (bottom == true)
+                    {
+                        Vector2 posB = new Vector2(pos.x, pos.y - 10);
+                        string bottomName = neighborBottomName(posB);
+
+                        if (bottomName.Contains("T") == false)
+                        {
+                            bottom = false;
+                        }
+                    }
+                    if (right == true)
+                    {
+                        Vector2 posR = new Vector2(pos.x + 18, pos.y);
+                        string rightName = neighborRightName(posR);
+
+                        if (rightName.Contains("L") == false)
+                        {
+                            right = false;
+                        }
+                    }
 
                     if (top == false && bottom == false && right == false)
                     {
@@ -672,6 +702,37 @@ public class DungeonGeneration : MonoBehaviour
                     bottom = checkNeighborBottom(pos, this.unavailablePositions);
                     left = checkNeighborLeft(pos, this.unavailablePositions);
 
+                    if (top == true)
+                    {
+                        Vector2 posT = new Vector2(pos.x, pos.y + 10);
+                        string topName = neighborTopName(posT);
+
+                        if (topName.Contains("B") == false)
+                        {
+                            top = false;
+                        }
+                    }
+                    if (bottom == true)
+                    {
+                        Vector2 posB = new Vector2(pos.x, pos.y - 10);
+                        string bottomName = neighborBottomName(posB);
+
+                        if (bottomName.Contains("T") == false)
+                        {
+                            bottom = false;
+                        }
+                    }
+                    if (left == true)
+                    {
+                        Vector2 posL = new Vector2(pos.x - 18, pos.y);
+                        string leftName = neighborLeftName(posL);
+
+                        if (leftName.Contains("R") == false)
+                        {
+                            left = false;
+                        }
+                    }
+
                     if (top == false && bottom == false && left == false)
                     {
                         Instantiate(templates.rightRooms[0], pos, templates.rightRooms[0].transform.rotation);
@@ -727,6 +788,37 @@ public class DungeonGeneration : MonoBehaviour
                     bottom = checkNeighborBottom(pos, this.unavailablePositions);
                     left = checkNeighborLeft(pos, this.unavailablePositions);
 
+                    if (right == true)
+                    {
+                        Vector2 posR = new Vector2(pos.x + 18, pos.y);
+                        string rightName = neighborRightName(posR);
+
+                        if (rightName.Contains("L") == false)
+                        {
+                            right = false;
+                        }
+                    }
+                    if (bottom == true)
+                    {
+                        Vector2 posB = new Vector2(pos.x, pos.y - 10);
+                        string bottomName = neighborBottomName(posB);
+
+                        if (bottomName.Contains("T") == false)
+                        {
+                            bottom = false;
+                        }
+                    }
+                    if (left == true)
+                    {
+                        Vector2 posL = new Vector2(pos.x - 18, pos.y);
+                        string leftName = neighborLeftName(posL);
+
+                        if (leftName.Contains("R") == false)
+                        {
+                            left = false;
+                        }
+                    }
+
                     if (right == false && bottom == false && left == false)
                     {
                         Instantiate(templates.topRooms[0], pos, templates.topRooms[0].transform.rotation);
@@ -781,6 +873,37 @@ public class DungeonGeneration : MonoBehaviour
                     right = checkNeighborRight(pos, this.unavailablePositions);
                     top = checkNeighborTop(pos, this.unavailablePositions);
                     left = checkNeighborLeft(pos, this.unavailablePositions);
+
+                    if (right == true)
+                    {
+                        Vector2 posR = new Vector2(pos.x + 18, pos.y);
+                        string rightName = neighborRightName(posR);
+
+                        if (rightName.Contains("L") == false)
+                        {
+                            right = false;
+                        }
+                    }
+                    if (top == true)
+                    {
+                        Vector2 posT = new Vector2(pos.x, pos.y + 10);
+                        string topName = neighborTopName(posT);
+
+                        if (topName.Contains("B") == false)
+                        {
+                            top = false;
+                        }
+                    }
+                    if (left == true)
+                    {
+                        Vector2 posL = new Vector2(pos.x - 18, pos.y);
+                        string leftName = neighborLeftName(posL);
+
+                        if (leftName.Contains("R") == false)
+                        {
+                            left = false;
+                        }
+                    }
 
                     if (right == false && top == false && left == false)
                     {
