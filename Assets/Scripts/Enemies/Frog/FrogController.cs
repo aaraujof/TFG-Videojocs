@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class FrogController : MonoBehaviour
 {
@@ -14,15 +15,20 @@ public class FrogController : MonoBehaviour
     public float visionRange;
     public float hp;
     public Vector2 room;
+    public Image HealthBar;
+    public GameObject health;
 
     private Transform player;
     private bool playerInsideRoom;
     private bool dead = false;
+    private float initialHealth;
 
     // Start is called before the first frame update
     void Start()
     {
         player = GameObject.FindWithTag("Player").transform;
+        initialHealth = hp;
+        HealthBar.fillAmount = hp / initialHealth;
     }
 
     // Update is called once per frame
@@ -46,6 +52,17 @@ public class FrogController : MonoBehaviour
     {
         playerDistance = Vector2.Distance(player.position, rb.position);
         playerInsideRoom = playerInRoom(player.position, room);
+
+        if (playerInsideRoom == true)
+        {
+            health.SetActive(true);
+        }
+        else 
+        {
+            health.SetActive(false);
+        }
+
+        HealthBar.fillAmount = hp / initialHealth;
 
         if (hp > 0)
         {

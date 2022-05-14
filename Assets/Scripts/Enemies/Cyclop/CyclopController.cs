@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class CyclopController : MonoBehaviour
 {
@@ -20,6 +21,8 @@ public class CyclopController : MonoBehaviour
     public float bulletForce;
     public float fireRate;
     public float range;
+    public Image HealthBar;
+    public GameObject health;
 
     private Transform player;
     private float hp = 60f;
@@ -27,6 +30,7 @@ public class CyclopController : MonoBehaviour
     private bool dead = false;
     private bool inPoint = false;
     private float nextFire = 0.0f;
+    private float initialHealth;
 
     Vector2 obj;
     Vector2 position1;
@@ -39,6 +43,8 @@ public class CyclopController : MonoBehaviour
         position1 = new Vector2(room.x-6, room.y);
         position2 = new Vector2(room.x+6, room.y);
         obj = position1;
+        initialHealth = hp;
+        HealthBar.fillAmount = hp / initialHealth;
     }
 
     // Update is called once per frame
@@ -59,6 +65,18 @@ public class CyclopController : MonoBehaviour
 
         playerDistance = Vector2.Distance(player.position, rb.position);
         playerInsideRoom = playerInRoom(player.position, room);
+
+        if (playerInsideRoom == true)
+        {
+            health.SetActive(true);
+        }
+        else
+        {
+            health.SetActive(false);
+        }
+
+        HealthBar.fillAmount = hp / initialHealth;
+
         if (hp > 0)
         {
             nextFire += Time.deltaTime;

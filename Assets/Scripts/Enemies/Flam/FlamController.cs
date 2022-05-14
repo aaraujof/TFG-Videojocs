@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class FlamController : MonoBehaviour
 {
@@ -19,6 +20,8 @@ public class FlamController : MonoBehaviour
     public float bulletForce;
     public float fireRate;
     public float range;
+    public Image HealthBar;
+    public GameObject health;
 
     private Transform player;
     private float hp = 50f;
@@ -26,12 +29,15 @@ public class FlamController : MonoBehaviour
     private float nextFire = 0.0f;
     private float nextShoot = 0.0f;
     private bool dead = false;
+    private float initialHealth;
 
     // Start is called before the first frame update
     void Start()
     {
         player = GameObject.FindWithTag("Player").transform;
         rb.mass = 9999;
+        initialHealth = hp;
+        HealthBar.fillAmount = hp / initialHealth;
     }
 
     // Update is called once per frame
@@ -51,6 +57,18 @@ public class FlamController : MonoBehaviour
 
         playerDistance = Vector2.Distance(player.position, rb.position);
         playerInsideRoom = playerInRoom(player.position, room);
+
+        if (playerInsideRoom == true)
+        {
+            health.SetActive(true);
+        }
+        else
+        {
+            health.SetActive(false);
+        }
+
+        HealthBar.fillAmount = hp / initialHealth;
+
         if (hp > 0)
         {
             nextFire += Time.deltaTime;
