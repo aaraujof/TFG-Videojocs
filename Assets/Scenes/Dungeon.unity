@@ -320,7 +320,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: -60}
-  m_SizeDelta: {x: 93, y: 23.4838}
+  m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &138319435
 MonoBehaviour:
@@ -678,7 +678,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 60}
-  m_SizeDelta: {x: 93, y: 23.4838}
+  m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &392347391
 MonoBehaviour:
@@ -1308,6 +1308,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1911892018}
     m_Modifications:
+    - target: {fileID: 4502448977883930158, guid: e7dc6b88371c1e84b9bb9ff79df183fb, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6598424547004764269, guid: e7dc6b88371c1e84b9bb9ff79df183fb, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
@@ -1739,7 +1743,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: -120}
-  m_SizeDelta: {x: 93, y: 23.4838}
+  m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &737704761
 MonoBehaviour:
@@ -2314,7 +2318,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5637382344256037386, guid: 64c4aea058a5f3b4089067c513d2179a, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 205
+      value: 220
       objectReference: {fileID: 0}
     - target: {fileID: 5637382344256037386, guid: 64c4aea058a5f3b4089067c513d2179a, type: 3}
       propertyPath: m_SizeDelta.y
@@ -2769,7 +2773,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 93, y: 23.4838}
+  m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1445582794
 MonoBehaviour:
@@ -3215,6 +3219,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1911892018}
     m_Modifications:
+    - target: {fileID: 1434447805567554934, guid: 2bb8dab710b892c43bd083e426de82b3, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3147048034578062469, guid: 2bb8dab710b892c43bd083e426de82b3, type: 3}
       propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
@@ -3343,6 +3351,10 @@ PrefabInstance:
       propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: ChangeVolume
       objectReference: {fileID: 0}
+    - target: {fileID: 4683311207808290710, guid: 2bb8dab710b892c43bd083e426de82b3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5504978751176269608, guid: 2bb8dab710b892c43bd083e426de82b3, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
@@ -3362,6 +3374,10 @@ PrefabInstance:
     - target: {fileID: 5504978751176269608, guid: 2bb8dab710b892c43bd083e426de82b3, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
       value: PauseMenuController, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 8622649603874010538, guid: 2bb8dab710b892c43bd083e426de82b3, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2bb8dab710b892c43bd083e426de82b3, type: 3}

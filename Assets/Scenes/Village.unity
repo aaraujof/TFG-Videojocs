@@ -1141,7 +1141,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 60}
-  m_SizeDelta: {x: 93, y: 23.4838}
+  m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &392347391
 MonoBehaviour:
@@ -3802,7 +3802,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: -120}
-  m_SizeDelta: {x: 93, y: 23.4838}
+  m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &908894745
 MonoBehaviour:
@@ -4802,7 +4802,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: -60}
-  m_SizeDelta: {x: 93, y: 23.4838}
+  m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1078226887
 MonoBehaviour:
@@ -6857,7 +6857,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 93, y: 23.4838}
+  m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1445582794
 MonoBehaviour:
@@ -10348,6 +10348,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ControlsPaused
       objectReference: {fileID: 0}
+    - target: {fileID: 4502448977883930158, guid: e7dc6b88371c1e84b9bb9ff79df183fb, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4502448977883930159, guid: e7dc6b88371c1e84b9bb9ff79df183fb, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -10440,6 +10444,10 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
       objectReference: {fileID: 1158533278}
+    - target: {fileID: 7317545884882443817, guid: e7dc6b88371c1e84b9bb9ff79df183fb, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 1025
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e7dc6b88371c1e84b9bb9ff79df183fb, type: 3}
 --- !u!1001 &4258469748224210557
@@ -10714,7 +10722,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5637382344256037386, guid: 64c4aea058a5f3b4089067c513d2179a, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 205
+      value: 220
       objectReference: {fileID: 0}
     - target: {fileID: 5637382344256037386, guid: 64c4aea058a5f3b4089067c513d2179a, type: 3}
       propertyPath: m_SizeDelta.y
@@ -10771,6 +10779,22 @@ PrefabInstance:
     - target: {fileID: 5637382344256037387, guid: 64c4aea058a5f3b4089067c513d2179a, type: 3}
       propertyPath: m_Name
       value: PausedMenuBackground
+      objectReference: {fileID: 0}
+    - target: {fileID: 5637382344256037387, guid: 64c4aea058a5f3b4089067c513d2179a, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5637382344256037389, guid: 64c4aea058a5f3b4089067c513d2179a, type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5637382344256037389, guid: 64c4aea058a5f3b4089067c513d2179a, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5637382344256037389, guid: 64c4aea058a5f3b4089067c513d2179a, type: 3}
+      propertyPath: m_Color.r
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 64c4aea058a5f3b4089067c513d2179a, type: 3}
