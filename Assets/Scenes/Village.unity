@@ -11004,6 +11004,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 7264143225204085946, guid: 976b96cd654a8b44481b34eece65b5b8, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 970
+      objectReference: {fileID: 0}
     - target: {fileID: 7264143225890534419, guid: 976b96cd654a8b44481b34eece65b5b8, type: 3}
       propertyPath: m_RootOrder
       value: 10
@@ -11051,6 +11055,10 @@ PrefabInstance:
     - target: {fileID: 7264143225890534421, guid: 976b96cd654a8b44481b34eece65b5b8, type: 3}
       propertyPath: m_Name
       value: Boy
+      objectReference: {fileID: 0}
+    - target: {fileID: 7264143226072817592, guid: 976b96cd654a8b44481b34eece65b5b8, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 976b96cd654a8b44481b34eece65b5b8, type: 3}
