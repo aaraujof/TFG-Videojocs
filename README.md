@@ -1,5 +1,4 @@
-# TFG-Videojocs
-TFG-Videojocs
+# TFG-Videojocs: NINJUTSU
 
 The objective of this TFG is the creation of a 2D video game of the Roguelike / Roguelite genre, but due to the limitations of the project, the aim is to create a demo level that will serve as a sketch of the main elements of the video game.
 
