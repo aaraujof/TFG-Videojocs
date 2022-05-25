@@ -720,7 +720,7 @@ ScriptsOnlyBuild:
     className: SkullController
   - hash:
       serializedVersion: 2
-      Hash: 7dd2c9f16aac5074250af6a59e7b76cf
+      Hash: 6dbf2d0e3cffc8354786c34ca0571c2f
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: FlamController
@@ -816,7 +816,7 @@ ScriptsOnlyBuild:
     className: CinemachinePostProcessing
   - hash:
       serializedVersion: 2
-      Hash: 0fbc934cf74fbadfca553539e63e6362
+      Hash: eadc391b9b8957fe639e083a84e890c1
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: CyclopController
@@ -942,7 +942,7 @@ ScriptsOnlyBuild:
     className: TimelineAsset
   - hash:
       serializedVersion: 2
-      Hash: 782eb25deb827df73cbf966b807491d7
+      Hash: db595bd923536adf4ac38318235298f0
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: FrogController
